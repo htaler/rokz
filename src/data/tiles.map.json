@@ -218,24 +218,24 @@
       "comment": "A hanging chain, built from Castlevania.png by tools/make-rope.ts. Tiles vertically without a seam."
     },
     "76": {
-      "sprite": "local/dropchord.png",
-      "comment": "A chandelier -- the fixture a rope hangs from. Touching one unrolls a rope down the column."
+      "sprite": "local/rope.png",
+      "comment": "Drawn as plain chain, same as a rope. A chord becomes rope the moment you touch it, so showing it as anything else broke the run visually. tools/make-sprites.ts still builds dropchord.png if a distinct sprite is wanted."
     },
     "77": {
-      "sprite": "local/dropchord.png",
-      "comment": "A chandelier -- the fixture a rope hangs from. Touching one unrolls a rope down the column."
+      "sprite": "local/rope.png",
+      "comment": "Drawn as plain chain, same as a rope. A chord becomes rope the moment you touch it, so showing it as anything else broke the run visually. tools/make-sprites.ts still builds dropchord.png if a distinct sprite is wanted."
     },
     "78": {
-      "sprite": "local/dropchord.png",
-      "comment": "A chandelier -- the fixture a rope hangs from. Touching one unrolls a rope down the column."
+      "sprite": "local/rope.png",
+      "comment": "Drawn as plain chain, same as a rope. A chord becomes rope the moment you touch it, so showing it as anything else broke the run visually. tools/make-sprites.ts still builds dropchord.png if a distinct sprite is wanted."
     },
     "79": {
-      "sprite": "local/dropchord.png",
-      "comment": "A chandelier -- the fixture a rope hangs from. Touching one unrolls a rope down the column."
+      "sprite": "local/rope.png",
+      "comment": "Drawn as plain chain, same as a rope. A chord becomes rope the moment you touch it, so showing it as anything else broke the run visually. tools/make-sprites.ts still builds dropchord.png if a distinct sprite is wanted."
     },
     "80": {
-      "sprite": "local/dropchord.png",
-      "comment": "A chandelier -- the fixture a rope hangs from. Touching one unrolls a rope down the column."
+      "sprite": "local/rope.png",
+      "comment": "Drawn as plain chain, same as a rope. A chord becomes rope the moment you touch it, so showing it as anything else broke the run visually. tools/make-sprites.ts still builds dropchord.png if a distinct sprite is wanted."
     },
     "81": {
       "sprite": "item/amulet/face1_gold.png"

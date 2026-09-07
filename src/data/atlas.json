@@ -4,7 +4,7 @@
     "cols": 8,
     "rows": 8,
     "image": "atlas.png",
-    "credit": "Tiles by the Dungeon Crawl Stone Soup team and rltiles contributors, released under CC0."
+    "credit": "Tiles by the Dungeon Crawl Stone Soup team and rltiles contributors, released under CC0. Chain and rail sprites derived from an asset pack by MidnitePixel."
   },
   "sources": [
     "dc-dngn/floor/grey_dirt0.png",
@@ -64,7 +64,6 @@
     "UNUSED/other/boulder.png",
     "dc-dngn/wall/volcanic_wall0.png",
     "local/rope.png",
-    "local/dropchord.png",
     "item/amulet/face1_gold.png",
     "effect/arrow0.png",
     "effect/arrow4.png",
@@ -343,42 +342,42 @@
     },
     "76": {
       "frames": [
-        57
+        56
       ]
     },
     "77": {
       "frames": [
-        57
+        56
       ]
     },
     "78": {
       "frames": [
-        57
+        56
       ]
     },
     "79": {
       "frames": [
-        57
+        56
       ]
     },
     "80": {
       "frames": [
-        57
+        56
       ]
     },
     "81": {
       "frames": [
-        58
+        57
       ]
     },
     "82": {
       "frames": [
-        59
+        58
       ]
     },
     "83": {
       "frames": [
-        60
+        59
       ]
     },
     "180": {
@@ -401,7 +400,7 @@
     },
     "196": {
       "frames": [
-        61
+        60
       ]
     },
     "252": {
@@ -412,7 +411,7 @@
   },
   "player": {
     "frames": [
-      62
+      61
     ]
   }
 }

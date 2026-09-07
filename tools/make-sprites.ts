@@ -1,8 +1,9 @@
 /**
  * Build the tiles the Crawl set has no equivalent for, cut from Castlevania.png.
  *
- * That sheet is on a 16px grid, so everything here is doubled with nearest
- * neighbour to sit alongside the 32px Crawl art without going soft.
+ * Source: "New Gothic Haunted Castle Tileset 32x32" by MidnitePixel. The sheet
+ * is 704x448, which is 22x14 cells at 32px -- the chandeliers sit one per cell,
+ * chains centred at x = 207, 239, 271, 303 -- so nothing needs scaling.
  *
  * Output goes to port/assets/, which the packer reads for any sprite path
  * beginning "local/".
@@ -17,7 +18,7 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const SRC = join(HERE, '..', '..', 'Castlevania.png');
 const ASSETS = join(HERE, '..', 'assets');
 const SIZE = 32;
-const ZOOM = 2;
+const ZOOM = 1; // the sheet is already 32px per cell, so nothing is scaled
 
 const src = PNG.sync.read(readFileSync(SRC));
 const at = (x: number, y: number): [number, number, number, number] => {
@@ -70,20 +71,12 @@ function rope(): PNG {
  * being distinguishable: the bracket marks the cell you can activate.
  */
 function dropChord(): PNG {
-  const CHAIN_X = 270, CHAIN_W = 5;
-  const MOUNT_TOP = 96, MOUNT_H = 2; // the wide bar the chain hangs from
-  const LINK_TOP = 98, LINK_H = 7, PADDED = 8;
+  // The chandelier is drawn across two cells -- chain in the one above, bowl in
+  // this one -- so the lower cell is taken whole, bracket and bowl included.
+  const CELL_X = 256, CELL_Y = 128;
   const png = blank();
-  const dx = Math.floor((SIZE - CHAIN_W * ZOOM) / 2);
   for (let y = 0; y < SIZE; y++) {
-    const row = Math.floor(y / ZOOM);
-    const srcY =
-      row < MOUNT_H
-        ? MOUNT_TOP + row
-        : LINK_TOP + Math.min((row - MOUNT_H) % PADDED, LINK_H - 1);
-    for (let x = 0; x < CHAIN_W * ZOOM; x++) {
-      put(png, dx + x, y, at(CHAIN_X + Math.floor(x / ZOOM), srcY));
-    }
+    for (let x = 0; x < SIZE; x++) put(png, x, y, at(CELL_X + x, CELL_Y + y));
   }
   return png;
 }
