@@ -20,7 +20,7 @@ import { SFX, Speaker, type Step } from './audio/speaker.ts';
 import { Achievements } from './achievements.ts';
 import { describeTile } from './tiledex.ts';
 import { Overlay, type MenuItem, type Screen } from './ui/overlay.ts';
-import { SLOTS, describeSlots, read as readSave, restore, type Slot, write as writeSave } from './engine/save.ts';
+import { SLOTS, describeSlots, read as readSave, restore, type Slot, type Snapshot, write as writeSave } from './engine/save.ts';
 
 const atlas = atlasDoc as AtlasDoc;
 const levels = (levelsDoc as LevelsDoc).levels;
@@ -237,9 +237,7 @@ function showAbout(): void {
 function resolveSlotDirect(slot: Slot): void {
   const snap = readSave(slot);
   if (!snap) return;
-  game = startLevel(snap.level, snap.difficulty);
-  game.load(snap.level);
-  restore(game.state, snap);
+  game = resumeFrom(snap);
   prompt(`Resumed slot ${slot} — level ${snap.level}.`);
   drawHud();
 }
@@ -309,6 +307,23 @@ function startLevel(n: number, difficultyOverride?: number): Game {
   state.level = n;
   equipForTesting(state, n);
   return new Game(state, levels, mapChars);
+}
+
+/**
+ * Rebuild a level and put the player back exactly as they entered it.
+ *
+ * Three things have to happen in this order. `startLevel` hands out the testing
+ * loadout, which `restore` then overwrites with the real inventory -- and the
+ * re-stamp at the end matters, because `Game.load` takes a fresh entry snapshot
+ * of whatever state it finds. Without it `state.entry` keeps the testing
+ * loadout, so the next save writes that out and the next restart hands it back.
+ */
+function resumeFrom(snap: Snapshot): Game {
+  const rebuilt = startLevel(snap.level, snap.difficulty);
+  rebuilt.load(snap.level);
+  restore(rebuilt.state, snap);
+  rebuilt.state.entry = { ...snap, found: [...snap.found] };
+  return rebuilt;
 }
 
 const opening = fromHash();
@@ -551,9 +566,7 @@ function resolveSlot(slot: Slot): void {
   }
   const snap = readSave(slot);
   if (!snap) { prompt(`Slot ${slot} is empty.`); return; }
-  game = startLevel(snap.level, snap.difficulty);
-  game.load(snap.level);
-  restore(game.state, snap); // overwrites the testing loadout with the real one
+  game = resumeFrom(snap);
   prompt(`Restored slot ${slot} — level ${snap.level}.`);
 }
 
@@ -630,7 +643,8 @@ addEventListener('keydown', (event) => {
     // north-east should not throw the level away.
     const from = game.state.level;
     const screen = snapshotScreen();
-    game = startLevel(from);
+    const entry = game.state.entry;
+    game = entry ? resumeFrom(entry) : startLevel(from);
     startWipe(from);
     if (wipe) wipe.under = screen;
     prompt(`Restarted level ${game.state.level}.`);
