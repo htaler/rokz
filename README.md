@@ -3,6 +3,12 @@
 A browser port of **The Lost Adventures of Kroz** (Scott Miller, Apogee Software, 1990),
 built directly from the original Turbo Pascal source.
 
+<img width="755" height="554" alt="image" src="https://github.com/user-attachments/assets/0322b213-b539-4c7c-9a4e-cd1cb5a5f0cb" />
+
+<img width="1431" height="620" alt="image" src="https://github.com/user-attachments/assets/4c0c329a-4261-4754-a6b5-339bf16afadb" />
+
+
+
 All 75 levels, the monsters, the spells, the traps and the sounds are read out of the
 1990 code rather than recreated by hand. The 943 hand-drawn layout rows in this repo
 still match the Pascal byte for byte, high-bit CP437 characters included.
