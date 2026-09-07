@@ -14,6 +14,7 @@
  */
 
 import type { GameState } from './engine/state.ts';
+import { TABLET_LEVELS } from './engine/tablets.ts';
 
 export interface Achievement {
   id: string;
@@ -32,6 +33,7 @@ export interface Tally {
   deepest: number;
   flawlessLevels: number;
   levelsCleared: number;
+  tabletsRead: number;
 }
 
 export const ACHIEVEMENTS: Achievement[] = [
@@ -64,6 +66,9 @@ export const ACHIEVEMENTS: Achievement[] = [
     test: (_s, e) => e.has('zap') },
   { id: 'flawless', name: 'Untouched', hint: 'Clear a level without losing a single gem.', group: 'Mastery',
     test: (_s, _e, t) => t.flawlessLevels >= 1 },
+  { id: 'archaeologist', name: 'Archaeologist',
+    hint: `Read the tablet on all ${TABLET_LEVELS} levels that have one.`, group: 'Mastery',
+    test: (_s, _e, t) => t.tabletsRead >= TABLET_LEVELS },
 
   // --- Progress
   { id: 'depth10', name: 'Into the Turf', hint: 'Reach level 10.', group: 'Progress',
@@ -91,7 +96,8 @@ export const ACHIEVEMENTS: Achievement[] = [
 const EARNED_KEY = 'kroz.achievements';
 const TALLY_KEY = 'kroz.tally';
 
-const emptyTally = (): Tally => ({ krozLevels: 0, deepest: 1, flawlessLevels: 0, levelsCleared: 0 });
+const emptyTally = (): Tally =>
+  ({ krozLevels: 0, deepest: 1, flawlessLevels: 0, levelsCleared: 0, tabletsRead: 0 });
 
 function load<T>(key: string, fallback: T): T {
   try {
@@ -115,6 +121,8 @@ export class Achievements {
   /** Levels already counted, so replaying one cannot inflate the tallies. */
   private krozDone = new Set<number>(load<number[]>('kroz.krozLevels', []));
   private flawlessDone = new Set<number>(load<number[]>('kroz.flawless', []));
+  /** Levels whose tablet has been read; a tablet is consumed, so once each. */
+  private tabletsDone = new Set<number>(load<number[]>('kroz.tablets', []));
 
   has(id: string): boolean {
     return this.earned.has(id);
@@ -132,6 +140,21 @@ export class Achievements {
       this.tally.deepest = n;
       save(TALLY_KEY, this.tally);
     }
+  }
+
+  /**
+   * Note reading the tablet on a level.
+   *
+   * A set of level numbers rather than a counter, because the Cheats menu can
+   * drop you onto a level whose tablet you have already read, and re-reading
+   * must not advance the total.
+   */
+  readTablet(n: number): void {
+    if (this.tabletsDone.has(n)) return;
+    this.tabletsDone.add(n);
+    this.tally.tabletsRead = this.tabletsDone.size;
+    save('kroz.tablets', [...this.tabletsDone]);
+    save(TALLY_KEY, this.tally);
   }
 
   /** Note leaving a level by the stairs, with the gems held on entry. */
@@ -168,7 +191,8 @@ export class Achievements {
     this.tally = emptyTally();
     this.krozDone.clear();
     this.flawlessDone.clear();
-    for (const k of [EARNED_KEY, TALLY_KEY, 'kroz.krozLevels', 'kroz.flawless']) {
+    this.tabletsDone.clear();
+    for (const k of [EARNED_KEY, TALLY_KEY, 'kroz.krozLevels', 'kroz.flawless', 'kroz.tablets']) {
       try { localStorage.removeItem(k); } catch { /* ignore */ }
     }
   }

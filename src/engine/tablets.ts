@@ -2,14 +2,14 @@
  * Ancient Tablets of Wisdom.
  *
  * Walking onto a tablet scores Level + 250 and then runs Tablet_Message for the
- * current level. Twenty-two levels have one. Most give a hint -- some of them
+ * current level. Thirty levels have one. Most give a hint -- some of them
  * genuinely useful, a few of them lies -- but a third of them actually rewrite
  * the level, transmuting one tile type into another across the whole board.
  * Those are introduced by a short prayer, and they are the closest thing Kroz
  * has to a spell you cast rather than pick up.
  */
 
-import type { GameState } from './state.ts';
+import { emit, type GameState } from './state.ts';
 
 /** Replace every cell of one type with another, level-wide. */
 function transmute(s: GameState, from: number, to: number): void {
@@ -126,10 +126,18 @@ export const TABLETS: Record<number, Tablet> = {
 };
 
 /** Read the tablet on this level: score it, speak it, and apply its magic. */
+/**
+ * How many levels carry a tablet: 28 hand-drawn ones place the tile directly,
+ * and levels 10 and 71 scatter it. Every one of the thirty has an entry above,
+ * which is why this can be counted from the table rather than the level data.
+ */
+export const TABLET_LEVELS = Object.keys(TABLETS).length;
+
 export function readTablet(s: GameState): void {
   s.score += s.level + 250;
   const tablet = TABLETS[s.level];
   if (!tablet) return;
+  emit(s, 'tablet');
   for (const line of tablet.lines) s.messages.push(line);
   tablet.effect?.(s);
 }

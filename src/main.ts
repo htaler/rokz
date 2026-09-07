@@ -382,6 +382,9 @@ function checkAchievements(): void {
   const s = game.state;
   const events = new Set(s.events);
   s.events.length = 0;
+  // Credit the tablet before the check runs, so the level that completes the
+  // set also awards Archaeologist on the same step.
+  if (events.has('tablet')) achievements.readTablet(s.level);
   const won = achievements.check(s, events);
   if (!won.length) return;
   log.textContent = won.map((a) => `★ ${a.name} — ${a.hint}`).join('   ');
