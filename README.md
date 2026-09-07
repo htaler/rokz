@@ -105,8 +105,8 @@ Deliberately, and noted in the code:
 
 - **Kroz** by Scott Miller, © Apogee Software. Source released under GPL v2 in 2009.
 - **Tiles** from Dungeon Crawl Stone Soup and rltiles, released under CC0.
-- **Chains and ceiling rail** derived from a Castlevania asset pack by
-  **MidnitePixel**, used with the author's permission.
+- **Chains and ceiling rail** derived from **New Gothic Haunted Castle Tileset 32x32**
+  by **MidnitePixel**, used with the author's permission.
 
 "Kroz" is a trademark of Apogee Software. This is an unaffiliated port.
 
