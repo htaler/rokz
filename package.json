@@ -1,0 +1,26 @@
+{
+  "name": "rokz",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Rokz — a browser port of The Lost Adventures of Kroz (Apogee, 1990)",
+  "scripts": {
+    "extract": "node tools/extract.ts",
+    "verify": "node tools/verify.ts",
+    "data": "npm run extract && npm run verify && npm run pack && npm run typecheck",
+    "typecheck": "tsc --noEmit",
+    "pack": "node tools/pack.ts",
+    "dev": "vite --port 5180 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 5180",
+    "smoke": "node tools/smoke.ts",
+    "check": "npm run typecheck && npm run smoke"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "@types/pngjs": "^6.0.5",
+    "pngjs": "^7.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  }
+}

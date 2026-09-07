@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "tileSize": 32,
+    "root": "assets/crawl-tiles Oct-5-2010",
+    "tileset": "Dungeon Crawl Stone Soup tiles, Oct 5 2010 (CC0)",
+    "credit": "Tiles by the Dungeon Crawl Stone Soup team and rltiles contributors, released under CC0. Chain and rail sprites derived from an asset pack by MidnitePixel.",
+    "note": "Keys are tile ids from tiles.json. `sprite` is one image; `frames` animates; `text` is drawn by the font layer instead of the atlas.",
+    "localAssets": "Sprites under local/ come from port/assets/. The chains and rail are cut from a Castlevania asset pack by MidnitePixel (itch.io), used with the author's permission for any purpose, with credit. The gems are generated."
+  },
+  "tiles": {
+    "0": {
+      "sprite": "dc-dngn/floor/grey_dirt0.png",
+      "comment": "floor, only drawn when a level sets MakeFloor"
+    },
+    "1": {
+      "sprite": "dc-mon/animals/rat.png",
+      "comment": "slow tier; source flickers #142/#65"
+    },
+    "2": {
+      "sprite": "dc-mon/gnoll.png",
+      "comment": "medium tier; source flickers #153/#148"
+    },
+    "3": {
+      "sprite": "dc-mon/undead/wraith.png",
+      "comment": "fast tier"
+    },
+    "4": {
+      "sprite": "dc-dngn/wall/wall_yellow_rock0.png",
+      "comment": "Block, MBlock and ZBlock are all col(6,7) brown glyph 178 in the original -- indistinguishable, so which one a spell will break is not given away."
+    },
+    "5": {
+      "sprite": "item/weapon/bullwhip.png"
+    },
+    "6": {
+      "sprite": "dc-dngn/gateways/stone_stairs_down.png"
+    },
+    "7": {
+      "sprite": "UNUSED/other/chest2_closed.png",
+      "comment": "A closed chest -- it is closed until you walk into it."
+    },
+    "8": {
+      "sprite": "spells/enchantment/slow.png"
+    },
+    "9": {
+      "frames": [
+        "local/gem-1.png",
+        "local/gem-2.png",
+        "local/gem-3.png",
+        "local/gem-4.png",
+        "local/gem-5.png",
+        "local/gem-6.png",
+        "local/gem-7.png",
+        "local/gem-9.png",
+        "local/gem-10.png",
+        "local/gem-11.png",
+        "local/gem-12.png",
+        "local/gem-13.png",
+        "local/gem-14.png",
+        "local/gem-15.png"
+      ],
+      "pick": "level",
+      "comment": "New_Gem_Color re-rolls the gem colour on entering each level, any CGA colour but 8. Drawn as CP437 4, the diamond suit."
+    },
+    "10": {
+      "sprite": "spells/enchantment/invisibility.png"
+    },
+    "11": {
+      "sprite": "spells/translocation/teleport.png"
+    },
+    "12": {
+      "sprite": "UNUSED/other/key.png",
+      "comment": "An actual key; the rune stand-in read as nothing in particular."
+    },
+    "13": {
+      "sprite": "dc-dngn/dngn_closed_door.png"
+    },
+    "14": {
+      "sprite": "dc-dngn/wall/brick_brown0.png"
+    },
+    "15": {
+      "sprite": "spells/enchantment/haste.png"
+    },
+    "16": {
+      "sprite": "dc-dngn/dngn_trap_dart.png"
+    },
+    "17": {
+      "sprite": "dc-dngn/water/dngn_shallow_water.png"
+    },
+    "18": {
+      "sprite": "item/potion/ruby.png",
+      "comment": "whip power"
+    },
+    "19": {
+      "sprite": "dc-dngn/wall/slime0.png",
+      "comment": "Forest: a solid green mass in the original (#219 in green). Always falls to one whip crack, so it must read as clearly different from a Tree."
+    },
+    "20": {
+      "sprite": "dc-dngn/wall/tree1_yellow.png",
+      "comment": "Tree: an individual tree (CP437 club), resists the whip at random(7) < WhipPower."
+    },
+    "21": {
+      "sprite": "item/misc/misc_orb.png",
+      "comment": "no bomb in Crawl; orb stands in"
+    },
+    "22": {
+      "frames": [
+        "dc-dngn/floor/lava0.png",
+        "dc-dngn/floor/lava1.png",
+        "dc-dngn/floor/lava2.png",
+        "dc-dngn/floor/lava3.png"
+      ]
+    },
+    "23": {
+      "sprite": "dc-dngn/vaults/grate.png",
+      "comment": "A pit is instant death, so it must never blend into the background. The original drew it as a light-grey stipple (col(7,7), CP437 176) -- pale and obvious. A dark shaft sprite made level 61's 456-pit minefield invisible."
+    },
+    "24": {
+      "sprite": "item/book/book_of_the_dead.png",
+      "comment": "Tome of Kroz, the goal"
+    },
+    "25": {
+      "sprite": "dc-dngn/floor/rect_gray0.png",
+      "comment": "tunnel"
+    },
+    "26": {
+      "sprite": "spells/ice/freeze.png"
+    },
+    "27": {
+      "sprite": "item/misc/gold_pile.png",
+      "comment": "gold nugget; ArtColor animates"
+    },
+    "28": {
+      "sprite": "item/misc/misc_deck.png",
+      "comment": "quake, shows as Chance"
+    },
+    "34": {
+      "sprite": "spells/air/chain_lightning.png",
+      "comment": "zap"
+    },
+    "35": {
+      "sprite": "item/misc/misc_deck.png",
+      "comment": "create, shows as Chance"
+    },
+    "36": {
+      "sprite": "UNUSED/other/demon_pentagram-large1.png",
+      "comment": "Larger pentagram; the small one barely registered."
+    },
+    "38": {
+      "sprite": "dc-dngn/wall/wall_yellow_rock0.png",
+      "comment": "Block, MBlock and ZBlock are all col(6,7) brown glyph 178 in the original -- indistinguishable, so which one a spell will break is not given away. MBlock reveals itself by moving."
+    },
+    "42": {
+      "sprite": "item/scroll/scroll.png",
+      "comment": "tablet"
+    },
+    "43": {
+      "sprite": "dc-dngn/wall/wall_yellow_rock0.png",
+      "comment": "Block, MBlock and ZBlock are all col(6,7) brown glyph 178 in the original -- indistinguishable, so which one a spell will break is not given away."
+    },
+    "45": {
+      "sprite": "item/misc/misc_deck.png",
+      "comment": "Chance"
+    },
+    "46": {
+      "sprite": "dc-dngn/dngn_granite_statue.png"
+    },
+    "47": {
+      "sprite": "item/misc/misc_deck.png",
+      "comment": "wall vanish, shows as Chance"
+    },
+    "48": {
+      "text": "K"
+    },
+    "49": {
+      "text": "R"
+    },
+    "50": {
+      "text": "O"
+    },
+    "51": {
+      "text": "Z"
+    },
+    "52": {
+      "sprite": "dc-dngn/wall/brick_brown0.png",
+      "comment": "Drawn identically to Wall in the original (col(6,7), Wall glyph). The camouflage is the puzzle: only the matching OSpell reveals it."
+    },
+    "53": {
+      "sprite": "dc-dngn/wall/brick_brown0.png",
+      "comment": "Drawn identically to Wall in the original (col(6,7), Wall glyph). The camouflage is the puzzle: only the matching OSpell reveals it."
+    },
+    "54": {
+      "sprite": "dc-dngn/wall/stone_gray0.png",
+      "comment": "OWall3 is the one open wall the original tints grey, col(7,7)."
+    },
+    "58": {
+      "sprite": "spells/translocation/blink.png"
+    },
+    "59": {
+      "sprite": "spells/translocation/portal.png"
+    },
+    "60": {
+      "sprite": "spells/translocation/phase_shift.png"
+    },
+    "64": {
+      "sprite": "dc-dngn/wall/stone2_gray0.png",
+      "comment": "GBlock is col(7,7) grey, the one block the original sets apart."
+    },
+    "65": {
+      "sprite": "UNUSED/other/boulder.png",
+      "comment": "A single round boulder. Must read as pushable, not as wall texture: level 40 is 1192 of these."
+    },
+    "66": {
+      "sprite": "dc-dngn/wall/volcanic_wall0.png",
+      "comment": "Electrified wall: col(12,0) bak(4,7), light red on red -- not cyan."
+    },
+    "75": {
+      "sprite": "local/rope.png",
+      "comment": "A hanging chain, built from Castlevania.png by tools/make-rope.ts. Tiles vertically without a seam."
+    },
+    "76": {
+      "sprite": "local/dropchord.png",
+      "comment": "A chandelier -- the fixture a rope hangs from. Touching one unrolls a rope down the column."
+    },
+    "77": {
+      "sprite": "local/dropchord.png",
+      "comment": "A chandelier -- the fixture a rope hangs from. Touching one unrolls a rope down the column."
+    },
+    "78": {
+      "sprite": "local/dropchord.png",
+      "comment": "A chandelier -- the fixture a rope hangs from. Touching one unrolls a rope down the column."
+    },
+    "79": {
+      "sprite": "local/dropchord.png",
+      "comment": "A chandelier -- the fixture a rope hangs from. Touching one unrolls a rope down the column."
+    },
+    "80": {
+      "sprite": "local/dropchord.png",
+      "comment": "A chandelier -- the fixture a rope hangs from. Touching one unrolls a rope down the column."
+    },
+    "81": {
+      "sprite": "item/amulet/face1_gold.png"
+    },
+    "82": {
+      "sprite": "effect/arrow0.png",
+      "comment": "arrow flying right"
+    },
+    "83": {
+      "sprite": "effect/arrow4.png",
+      "comment": "arrow flying left"
+    },
+    "180": {
+      "text": "."
+    },
+    "181": {
+      "text": "?"
+    },
+    "182": {
+      "text": "'"
+    },
+    "183": {
+      "text": ","
+    },
+    "184": {
+      "text": ":"
+    },
+    "195": {
+      "text": "!"
+    },
+    "252": {
+      "sprite": "dc-dngn/wall/tree1_yellow.png",
+      "comment": "The secret-message tree. Drawn exactly like a Tree in the original, so it stays hidden."
+    },
+    "196": {
+      "sprite": "local/rail.png",
+      "comment": "CP437 196, the horizontal rule. Only four levels use it and always as a full 64-cell row; on the gravity levels it sits directly above the chandeliers, so it is drawn as the same chain rotated."
+    }
+  },
+  "player": {
+    "sprite": "dc-mon/unique/terence.png",
+    "comment": "An armoured adventurer. Teal is unused elsewhere in the palette, so the player stays readable against forest, brick, lava and stone."
+  }
+}

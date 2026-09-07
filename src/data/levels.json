@@ -1,0 +1,2023 @@
+{
+  "meta": {
+    "game": "The Lost Adventures of Kroz",
+    "source": "source/LOSTKROZ/MASTER",
+    "width": 64,
+    "height": 23,
+    "levelCount": 75,
+    "drawn": 41,
+    "scattered": 34
+  },
+  "levels": [
+    {
+      "n": 1,
+      "kind": "drawn",
+      "rows": [
+        "//\\///////\\///\\////////\\////////\\//#the#lost#adventures#of#kroz#",
+        "//\\//////////////\\//\\////////\\////////\\///\\/\\\\/\\\\/\\/\\\\/\\\\\\\\\\\\\\/\\",
+        "\\###your#hut###////\\///\\/////////\\/////\\/\\\\//\\\\/\\\\/\\\\\\\\\\\\\\\\\\\\\\\\\\",
+        "/##           D---/////////\\//\\///\\//\\/\\/\\/\\/\\/\\/\\/\\\\\\\\\\\\\\###\\\\\\",
+        "/##  P ####  ##///-\\//\\//\\/----\\///\\////\\//\\//RRR/\\\\\\\\\\\\\\##L##\\\\",
+        "/##      K#**##/\\\\/-//--/\\-\\//\\--\\//\\//\\////RRRRR//\\\\\\\\\\\\\\#0#\\\\\\",
+        "\\##############/////--\\/--//\\////-///////\\////RRRRRRR/\\\\\\\\#!#\\\\\\",
+        "////\\\\///\\/\\\\///\\//\\//////////\\//\\---\\//\\////RRRRRR/\\\\/\\\\\\\\-\\\\\\\\",
+        "/\\//////\\/////\\////////\\///\\/////////--/////\\///RRRRR\\\\\\\\\\\\\\-\\\\\\",
+        "///////\\////////\\///////////////\\/////\\---/////RRRRR/\\/\\\\\\\\\\\\-\\\\",
+        "////\\/////\\\\\\//\\////\\/////\\//////\\////////-//\\/\\/RRRRRR\\/\\\\\\-\\\\\\",
+        "/////////\\\\\\\\\\///\\////\\////////\\///\\///////-//\\///RRRR\\//\\/-\\/\\/",
+        "\\//////\\//\\\\////\\////////\\//\\//////////\\///-\\////RRRRRR\\\\/\\-/\\/\\",
+        "//\\\\//////\\/###storage###///////\\--//\\\\///-////RRRRRRRRR/\\/\\-/\\/",
+        "////////\\///##WWW-WWW-W##/\\////--//-//\\\\/-///\\RRRRRRRRR/\\/\\/-/\\/",
+        "/\\////////\\/##W-WWW-WW---------//\\//-----//\\///RRRRRRRR\\\\//\\-\\//",
+        "\\/////\\/////#############\\///\\-/\\\\\\/\\/\\\\/\\////RRRRRRRR//\\/\\/-//\\",
+        "///\\////\\//////\\\\////\\////\\///-////\\/\\\\/\\///\\RRRRRRR/\\/\\//\\-/\\//",
+        "/\\///\\/////\\////\\///\\//\\//\\////------\\///\\////\\////\\//--/\\-\\\\//\\",
+        "\\//\\///\\/\\//\\/\\/\\///\\//\\/\\///\\////\\//------\\/\\//\\///\\-\\/--//\\/\\/",
+        "/\\///\\////\\//\\///\\////\\///\\//\\/\\////\\///\\/\\-----/\\\\/-/\\//\\/\\//\\/",
+        "\\//\\////\\/\\///\\//\\///\\/\\///\\//\\/////\\///\\/////\\/----\\\\//\\///\\//\\",
+        "#by#scott#miller#\\///\\/////\\/\\////\\////\\////\\//\\//\\/\\//\\/\\\\///\\ü"
+      ],
+      "params": {
+        "fast": 234
+      }
+    },
+    {
+      "n": 2,
+      "kind": "drawn",
+      "rows": [
+        "XXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXX### P ###X",
+        "XXXXX##XXXXXXXXXXXXXXXXXXX##XXXXXXXXXXXXXXXXXXXXXXXXXXXX##  ##XX",
+        "XXXXXXXXXXXXXXX&-XXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXX#XXXXX#  #XX",
+        "#XXXXXXXXXXXXXXXX-XXXX--XXXXXXXXXXXXXXXX##XXXXXXXXXXXXXXXX  XXXX",
+        "XXXXXXXXX#XXXXXXXX-XX-XX-XXXXXXX#XXXXXXXXXXXXXXXXXXXXX##   #XXXX",
+        "XXX#XXXXXXXXXXX#XXX--XX#X--XXXXXXXXX#XXXXX#XXXX##XXXX##  ##XXXXX",
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXX--XXXXXXXXXXXXXXXXXXXXXXX##XX##XXXXXX",
+        "XXXXXXXXXXX##XXXXXXXXXXXXX#XX-XXXXXXXXXXXXXXXXXXXXX##  ##XXXX##X",
+        "XXXXX#XXXXXXXXXXXX#XXXXXXXXXXX--XXXX##XXXXXX#XXXXX##  ##XXXXXXXX",
+        "XXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXX-#XXXXXXXXXXXXX      XXXX#XXXXXX",
+        "XXXXX##XXXXXX#XXXXXXX#XXXXXXXXXX#X##XXXXX       XXXXXXXXXXXXXXXX",
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXXX##XXX#   0    XXXXXXXX!XXXXXXXXXXXXX",
+        "XXXXXXXXXXXXXX#XXXXXXX===XXXXXXX#  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "XXXXXXX#XXXXXXXXXXXX=======XXXXX  XXXXXXXX#XXXXX#XXXXXXXXXX##XXX",
+        "XXXXXXXXXXXXXXXXX=========       XX=====XXXXXXXXXXXXX#XXXXXXXXXX",
+        "XX#XXXXXXX##XXX==========  ===========XXXXXXXXXXXXXXXXX#XXXXXXXX",
+        "XXXXXXXXXXXXXX==========  ===========XXXXXXXXX##XXXXXXXXXXXXXXXX",
+        "XXXX#XXXXXXX             ===========XX#XXXXXXXXXXXXXXXXXXXXX#XXX",
+        "XXXXXXXX    XX#XXXX================XXXXXXXX#XXXXXX#XXXXXXXXXXXXX",
+        "XXX     XX#XXXXXXXXXX===========XXXXXXXXXXXXXXXXXXXX##the#secret",
+        "XXXXXXXXXXXXXXXXXX#XXXXXX=====XXXXXXXXXX#XXXXXXXXXXX#tunnel#into",
+        "X  XX#XXXXXX##XXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX#the#kingdom",
+        "LLXXXXXX#XXXXXXXXXXXXX#XXXXXXXXXXXXXX#4XXXXXX##XXXXX#####of#kroz"
+      ],
+      "params": {
+        "fast": 234,
+        "hideStairs": true
+      }
+    },
+    {
+      "n": 3,
+      "kind": "scattered",
+      "counts": {
+        "1": 80,
+        "4": 50,
+        "6": 1,
+        "14": 30,
+        "68": 9
+      },
+      "params": {}
+    },
+    {
+      "n": 4,
+      "kind": "drawn",
+      "rows": [
+        "                                   1                        1  &",
+        " ####shop####         1                                        ",
+        " ##++++++++##                            1                      ",
+        " ##++++++++##                                 ##4444444444444444",
+        " #####OO#####                                 ##   1   1   1  1 ",
+        "                          ###spells###        ## 1 1  1  1   1  ",
+        "     1                    ##ñEFTò @##     1  ##    1   1  1  1 ",
+        "                          ##I@ S  T##        ##11   1 1    1   ",
+        "                     1    ##ZóT  ] ##        ##   1   1 1  1 1 ",
+        "                          #########X##        ## 1   1  1  1 1  ",
+        "@@         1                                  ##1 1    1  1    1",
+        "1@W                            P              ## 1  1 1 1  1 1 1",
+        "1@W                                           ##1  11  1 1   1  ",
+        "1@W   1                                     1 ##  1   1     1   ",
+        "1@W                 1                         ##1    1  1  1  1 ",
+        "1@W                                     #.#OXX## 1 1  1   1    1",
+        "1@W          ###lair#of#kroz###         #.#XOX##1    1  1   1 1 ",
+        "1@W          77------------ôK##         #.#XXO##  1 1  1   1   1",
+        "1@W          ####1111111111####         #.#XOX## 1 1  1 1 1   1 ",
+        "1@W    1      Z##############           #H#X!X##1  1 1  1  1 1  ",
+        "1@W                                     ######## 1   1 1  1   1 ",
+        "1@@@@@@@@@@@@@@@                  ########@       1   1   1 1  1",
+        "111111111111111@                1 ##LLWWWD@         1   1    1 1"
+      ],
+      "params": {
+        "fast": 234,
+        "hideGems": true
+      }
+    },
+    {
+      "n": 5,
+      "kind": "scattered",
+      "counts": {
+        "1": 100,
+        "5": 30,
+        "6": 1,
+        "9": 9,
+        "11": 2,
+        "64": 900,
+        "68": 5
+      },
+      "params": {}
+    },
+    {
+      "n": 6,
+      "kind": "drawn",
+      "rows": [
+        "#diary·#day#one¸################################################",
+        "################################################################",
+        "#you#finally#discover#the#twisty#tunnel#that#you#noticed#during#",
+        "################################################################",
+        "#your#last#exploration#of#kroz·#in#the#final#crusade´##with#a###",
+        "################################################################",
+        "#few#swings#of#your#thick#leather#whip#the#small#tunnel#opened·#",
+        "################################################################",
+        "#giving#you#passage´##you#sip#lightly#from#your#water#pouch#and#",
+        "################################################################",
+        "#flick#the#whip#in#the#air·#snapping#in#half#an#annoying#bug´###",
+        "################################################################",
+        "#you#again#wonder#what#new#surprises#await#you#in#the#vast#and##",
+        "################################################################",
+        "#dangerous#kingdom#of#kroz´##only#one#way#to#find#out´´´########",
+        "ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ",
+        "##############################Q 2       W#######################",
+        "P ##################### #########---#### ########## # ##########",
+        "## # ### ########### # # # ######222#### ##### ### # # # ### ###",
+        "### # # # ######### # ### # ### ##2## ## #### # # ## ## # # #E##",
+        "###### ### # ### # ## ### ## # # ### # # ### ### ### ## ## ###&#",
+        "###### #### # # # ### ### ### ### # ### # # #### ###2## ##7####L",
+        "######2####!## ##2###2###2###2#### ####2## #####2###C##2##ô#####"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 3,
+        "gravOn": true,
+        "hideStairs": true
+      }
+    },
+    {
+      "n": 7,
+      "kind": "scattered",
+      "counts": {
+        "4": 980,
+        "5": 20,
+        "6": 3,
+        "7": 2,
+        "9": 9,
+        "14": 320,
+        "16": 9,
+        "21": 20,
+        "27": 9,
+        "47": 3,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 1,
+        "73": 9
+      },
+      "params": {}
+    },
+    {
+      "n": 8,
+      "kind": "drawn",
+      "rows": [
+        " P !XC-----------##-----XXX-------7  1    7           ------DDLL",
+        "XXXXXX-----------##³----X¹X----³---###³###             --#³#####",
+        "    --------ñ----##³###########³---##+³+##             --4³-----",
+        "     -------XXXXº##³-----------³---##+³+##             -74   1  ",
+        "   T ------------##³-----------³---##+³+##              \"######¹",
+        "     ------------##³7  1        7--##+³+##                    4 ",
+        "    -------------##³ XXXXXXXXXXX---###X###                   4 ",
+        "      -----------##³ XXXXXXXXXXX------³                       4 ",
+        "  T  -----7 1    ##³ XXXXXKXXXXX------³                      4 ",
+        "     -----³XXXXXX##³          --------³1 1 1 7                4 ",
+        "     -----³          1        W#######³######                4 ",
+        "     -----³#############XXX######   71³                       4 ",
+        "   T -----³--------##---------##     #³17                    4 ",
+        "          ³--------##---------##    71³#        7      1   7  4 ",
+        "          ³--------##---------##     #³º7        000000000#   4 ",
+        " #        ³--------##---------##    71³#           ³ WWWWW#   4 ",
+        "X#  T     ³--------##---------##     #³17          ³ ######   4 ",
+        "W#        ³   ##XXX##---------##    71³#           ³          4 ",
+        "W#        ³   ##WW[##---------##     #³17          ³          4 ",
+        "W#        ³   ##WWW##---------##    71³#           ³          4 ",
+        "W# <      ³   ##XXX##----K----##     #³17  7      1           4 ",
+        "W#        ³        ##---------##|     ³#    ####################",
+        "W#             1   ##       1 44          1 #a#¶sideways¶#level#"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true
+      }
+    },
+    {
+      "n": 9,
+      "kind": "drawn",
+      "rows": [
+        "-------¼--------44---³³³³³³³³³³³³º---º³³³³³³³³³³³------K---¹;-U-",
+        "XXXXXXX-XXX-----44---      -----------------    ----#######-;---",
+        "--------------71#####       ---------------      #####¹-----;;;;",
+        "K------------71###           -------------          #####³##; P ",
+        "#17---------71####****        -----------       ****##----W;   ",
+        "##17-------71#####*###         ----K----        ###*##³#####;   ",
+        "###17-----71######*#             #####            #*## 1   7;   ",
+        "####17---71#######*;     W    W    W    W    W    :*#######³;   ",
+        "#####17-71########*#444444444444444444444444444444#*##ñ     ;   ",
+        "######---#########*#                              #*##444³##;   ",
+        "#######ä##########U#                              #!##     ;   ",
+        "----------------####                              ######³###;   ",
+        "----------------##VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV##     ;   ",
+        "----------------##VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV###³####;   ",
+        "»ä-------------ò######################################      ;   ",
+        "5555555555555555#############the#lava#pit#################³#;   ",
+        "            -------         ------------***********-##+   C;   ",
+        "              000            ---»######-###########-####³###;   ",
+        "                                ------7##LL-D-D-D-³##      ;   ",
+        "                                     ##-###########³#######³;   ",
+        "                                     ##-7  1   TTT7³##     ;   ",
+        "                                     ##--#########³###³####;   ",
+        "¼       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1##111111111  äC##        "
+      ],
+      "params": {
+        "fast": 234,
+        "lavaRate": 75,
+        "lavaFlow": true,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true
+      }
+    },
+    {
+      "n": 10,
+      "kind": "scattered",
+      "counts": {
+        "1": 50,
+        "5": 90,
+        "6": 2,
+        "7": 2,
+        "16": 25,
+        "18": 1,
+        "19": 200,
+        "20": 50,
+        "27": 55,
+        "42": 1,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 1
+      },
+      "params": {
+        "treeRate": 40
+      }
+    },
+    {
+      "n": 11,
+      "kind": "drawn",
+      "rows": [
+        "66666666666666666666----------------------------66WW---I-------K",
+        "-----------D D D-----66666666666666666666666666(6666666666666---",
+        "-666666666666666666-((((((((((((((((22222222222(-----------666-6",
+        "-666666666666666666-66((((((((((((((22222222222(6-66666666-----6",
+        "-66666666666066WYY6-66VVVVVVVVVVVVVVVVVVVVVVVVV66-66666666666666",
+        "------------0B6WYY--66T-W-W-*-W-W-C-W-W-*-W-W-T66-66666666663666",
+        "-66666666666066WYY666666666666666666666666666666666666666636666",
+        "-MMMMM6666666666666666666666666666666666666666666-66666666366666",
+        "-MMMMM............................3!66222222266----$$$$$$$666666",
+        "-MMMMM6666666666666666666666666666666622222266~~~~~~~~~~~~-66666",
+        "-MMMMM666666666666666666666666666666662222266------------~~-6666",
+        "-MMMMM............................3H66222266-~~~~~~~~~~~~-~~-666",
+        "-MMMMM6666666666666666666666666666666622266-~~----------~~-~~-66",
+        "-66666666666666666666666666666666666@@@@66-~~-~~~~~~~~~~-~~-~~-6",
+        "----666-OWOWOWOWOWOWOWOWOWO 66666666@66@666-~~-~~K-----~~-~~-66",
+        "-66-666-6666666666666666666 66666666@66-6666-~~-~~~~~~~~~-~~-666",
+        "-66F666-666T-3)K)3-T66           666@66-66666-~~---------~~-666C",
+        "-66F666-666T-3)))3-T66     G     666-66-666666-~~~~~~~~~~~-6666-",
+        "-66666---666666-666666           666-66-6633666-----------666333",
+        "-66YYYYYYYYY666-66666666666-66666666-66-66--6666666666666-666-66",
+        "--     P    666-66+------66-66-------66----Y--D-D-D-LL 66-666-66",
+        "666---------666-66666666-66-66Y66666-66666666666666666666-666-66",
+        "666222222222666-------------66---Z66--------------------------66"
+      ],
+      "params": {
+        "fast": 234
+      }
+    },
+    {
+      "n": 12,
+      "kind": "scattered",
+      "counts": {
+        "1": 100,
+        "6": 2,
+        "9": 45,
+        "25": 8,
+        "27": 100,
+        "28": 3,
+        "65": 100,
+        "66": 600
+      },
+      "params": {}
+    },
+    {
+      "n": 13,
+      "kind": "drawn",
+      "rows": [
+        "P   ########Q##########################################1       L",
+        "#    #######X######H 1        H###########H    H######   W]H]W&L",
+        "##    ######O#####             #########        ####    #######",
+        "###    #####O####H   ####4###    #######   1##ñ   ###H   #######",
+        "####    ####O#####H   ###4####    V<[|\"V    ###    ###    ######",
+        "####    ####O######    ##4####    ######    ###    ####    #####",
+        "####    ####O#####  1 ###4####  1 ######    ###    #####   H####",
+        "#####    ###O####    ####4#####     H###    ###  1 ####    #####",
+        "######    ##O###    #####4######      ##    ###    ### 1  ######",
+        "#######            ######4#########   1    ####    ##    #######",
+        "########  1       #######K##########      ######        ########",
+        "ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ",
+        "#diary·#day#two¸################################################",
+        "################################################################",
+        "#the#journey#is#starting#to#wear#you#down·#but#you#will#never###",
+        "################################################################",
+        "#give#upÃ##you#have#discovered#new#items#in#kroz´##some#areas###",
+        "################################################################",
+        "#have#a#strange#magical#gravity#that#tugs#you#down´##you¶ve#####",
+        "################################################################",
+        "#also#discovered#ropes#that#allow#you#to#swing#and#climb#over###",
+        "################################################################",
+        "#trouble#spots´##kroz#will#beat#you·#you#cannot#accept#defeatÃ##"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 3,
+        "gravOn": true,
+        "hideStairs": true
+      }
+    },
+    {
+      "n": 14,
+      "kind": "drawn",
+      "rows": [
+        "VXVVVVVVVVXVVVVVVXVVVVV   P   VVVVVVVVVVXVVVVVXVVVVVXVVVVVVVVXVV",
+        "VVVVXVVVXVVVVVXVVVVVVV       VVVXVVVVVVVVVXVVVVVVVXVVVVXVVVVVVVV",
+        "VVVVVVXVVVXVVVVVVVVXVV         VVVXVVVVVVVVVVXVVVVVVVXVVVVVXVVVV",
+        "VVXVVVVVVVVVVVVVXVVVVVV      VVVVVVVVXVVVXVVVVVVVXVVVVVVXVVVVVXV",
+        "VVVVXVVVVXVVVVXVVVVXVVV     VVXVVVVVVVVXVVVVVXVVVVVVVXVVVVVXVVVV",
+        "XVVVVVVVVVVXVVVVXVVVV       VVVVXVVVVVVVVVVXVVVXVVVVVVVVVVXVVVVV",
+        "VVVVVVXVVVVVVVXVVVVVVV       VVVVVVVVXVVVXVVV#oh#no·#you¶ve#VXVV",
+        "VVXVVVVVXVVVVVVVVVXVV        VVVXVVVVVVVVVVXV#fallen#into#a#VVVV",
+        "VVVVXVVVVVVXVVVVXVVVVV      VVVVVVVVVVXVVVVVV#volcano#pitÃ##VVXV",
+        "VVVVVVVXVVVVVXVVVVVXVVV   CVVVXVVVXVVVVVVXVVVVVVVVVVVXVVVVVVVVVV",
+        "VXVVVVVVVVXVVVVVVVVVVXV   VVXVVVVVVVVXVVVVVVVVVXVVVVVVVXVVVVVVXV",
+        "VVVVXVVVVVVVVXVVXVVVVVV    VVVVVXVVVVVVVVVVXVVVVVVXVVVVVVVVXVVVV",
+        "VVVXVVVVXVVVVVVVVVVXVVVV VVVVVVVVVXVVVVVXVVVVXVVVVVVVXVVVVVVVXVV",
+        "VVVVVVXVVVXVVVVVVVVVVVV   VVVXVVVVVVVXVVVVVVVVVVVXVVVVVVVXVVVVVV",
+        "XVVVVVVVVVVVVVVVXVVVVV  W  VVVVVXVVVVVVVVVXVVVXVVVVVXVVVVVVVVXVV",
+        "VVVXVVVVVVVXVVVVVVVXVV   W  VVVVVVVXVVVVVVVVXVVVVXVVVVVVVVVXVVVV",
+        "VVVVVVXVVVVVVXVVVVVVVVV W    VXVVVVVVVVXVVVVVVVVVVVVXVVVVXVVVVVV",
+        "VVVVVVVVVXVVVVVVXVVVVVV  W   VVVVXVVVVVVVXVVVVXVVVVVVVVXVVVVVVXV",
+        "VXVVXVVVVVVVXVVVVVXVVVC W   VVVVVVVVXVVVVVVVVXVVVVXVVVVVVVVXVVVV",
+        "VVVVVVXVVVVVVVVXVVVVVVV  W   VXVXVVVVVVVXVVVVVVVXVVVVVXVVVVVVVXV",
+        "VVXVVVVXVVVXVVVVVXVVVVVV      VVVVVXVVVVVVXVVVVVVVXVVVVXVVVVXVVV",
+        "VVVVXVVVVVVVVXVVVVVVVVXVV      VVXVVVVVXVVVVVVVXVVVVVVVVVVXVVVVX",
+        "VVXVVVVXVVVVVVVVVXVXVVVVVVLLLLLLLVVVXVVVVVVXVVVVVVVVXVVVVVVVVVXV"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true,
+        "hideStairs": true
+      }
+    },
+    {
+      "n": 15,
+      "kind": "drawn",
+      "rows": [
+        "VV#VVVVV#VVVVV#VVVVVV#VVVV   P  ¹-----------I-------3--------LL",
+        "VVVV#VVVVVVV#VVV#VVVVVVV#VV      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "#VVVVV#VVVVVVVVVVVVVV#VVVVV      VVVVVVVVVVVVVV#VVVVVVVVVVV#VVV",
+        "VVVVVVVVVV#VVVVVV#VVVVV#VVVV      VV#VV<VVVVV#VVVVVVVV#VVVVVVV#V",
+        "VV#VVVVVVVVVVV#VVVVV#VVVVVVVV      VVVV[VVV#VVVVVV#VVVVVV#VVVVVV",
+        "VVVVV#VVVVV#VVVVVV#VVVVVVV#V   WWWVVV#V|VVVVVVV#VVVVVV#VVVVVV#VV",
+        "VV#VVVVV#VVVVVVVVVVVVV#VVVVVV  YYY VVVV\"VVVVV#VVVVVVVVVVVV#VVVVV",
+        "VVVVVVVVVVVVVV#VVVVVVVVVV#VVVV      VVV#VVVVVVVV#VVVVVVVVVVVVVV#",
+        "VVV#VVVVVVVVVVVVV#VVV#VVVVVVVVV      VVVVV#VVVVVVVV#VVVVVVVV#VVV",
+        "#VVVV#VVVVVVVVVVVVVVVVV#VVVVV#VV      VVVVVVV#VVVVVVV#VV#VVVVVVV",
+        "VVVVVVV#VVVV#VVVVVV#VVVVVVVVVVV      VVV#VVVVVVVV#VVVVVVVVVVVV#V",
+        "VV#VVVVVVVVVV#VVVVVVVVVVVVV#VV      VVVVVVV#VVVVVVVV#VVVVV#VVVVV",
+        "VVVVVVVVVV#VVVV#VVVVVVVVV#VVV      VVV#VVVVVVVV#VVVVVVV#VVVV#VVV",
+        "VVV#VVVVVVVVVVVVV#VVVV#VVVVVVV      VVVVV#VVVVVVVV#VVVVVV#VVVVVV",
+        "VVVVV#VVVVVVV#VVVVVV#VVVVVVVV      VVVVVVVVV#VVV#VVVVVVVVVVVVVV#",
+        "#VVVVVV#VVVVVVVVVVVVVVVV#VVV      VV#VVVVVVVVV#VVVVV#VVVVVVV#VVV",
+        "VV#VVVVVVVVVVVVV#VV#VVVVVVV  ¹   VVVVVV#VVVVVVVVVV#VVVVV#VVVVVVV",
+        "VVVVVVVVVV#VVVVVVVVVV#VVV#VV      VVV#VVVVV#VVVVVVVVV#VVVVVVVV#V",
+        "VVVV#VVVVVVV#VVVVVVVVVV#VVVVV      VVVVV#VVVVVV#VVVVVVVVVV#VVVVV",
+        "#VVVVVV#VVVVVVV#VVVV#VVVVVVVVV      VV#VVVVVV#VVVVV#VVVVVVVVV#VV",
+        "VV#VVVVVV#VVVVVVVV#VVVVVVV#VV      VVVVVVV#VVVVVV#VVVVVV#VVVVVVV",
+        "VVVVV#VVVVVVV#VVVVVVVVV#VVVVVVVVVVVVVVV#VVVVVVV#VVVVV#VVVVV#VVVV",
+        "#VVVVVVVVV#VVVVVVVVVV#VVVVVVVVVVVVVV#VVVVVVV#VVVVVV#VVVVVVVVV#VV"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true
+      }
+    },
+    {
+      "n": 16,
+      "kind": "scattered",
+      "counts": {
+        "1": 350,
+        "5": 20,
+        "6": 2,
+        "8": 9,
+        "9": 40,
+        "27": 20,
+        "28": 1,
+        "36": 3,
+        "41": 1,
+        "68": 30
+      },
+      "params": {}
+    },
+    {
+      "n": 17,
+      "kind": "scattered",
+      "counts": {
+        "6": 2,
+        "9": 20,
+        "10": 20,
+        "11": 1,
+        "16": 700,
+        "27": 9,
+        "36": 1,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 1,
+        "65": 3,
+        "66": 300
+      },
+      "params": {}
+    },
+    {
+      "n": 18,
+      "kind": "drawn",
+      "rows": [
+        "K----------------------------YYY!YYY---------------------------K",
+        "-66666666666666666666666666666666666666666666666666666666666666-",
+        "-66ñ                           +          DTDTDTDTLL 66   -\"66-",
+        "-66                                        6666666666666   --66-",
+        "-6666666666666666666666666666666666                          66-",
+        "-66<-     )                   66 ..                          66-",
+        "-66--     #############       66 66      ##$$$$$$$$$$$##     66-",
+        "-66      ##11111111111##      66 66      ###MMMMMMMMM###     66-",
+        "-66     ##1111111111111(      66 66      ####MMMMMMM####     66-",
+        "-66     ##1111111111111(      66(66      ##W##MMMMM##W##     66-",
+        "-66      ##11111111111(       66 66      ##WW##MMM##WW##     66-",
+        "-44)))))))############(       66P66      ##WWW##&##WWW##     55-",
+        "-66      )11111111111##       66 66      ##....###....##     66-",
+        "-66     )1111111111111##      66 66      ##     #     ##     66-",
+        "-66     )1111111111111##      66 66      ##          ##     66-",
+        "-66     ##11111111111##       66 66      ##           ##     66-",
+        "-66      #############        66 66      ##]]]]]]]]]]]##   --66-",
+        "-66                           .. 66                        -[66-",
+        "-66                           666666666666666666666666666666666-",
+        "-66--   6666666666666         +                             66-",
+        "-66|-   66 LLWDWDWDWD                                       ò66-",
+        "-66666666666666666666666666666666666666666666666666666666666666-",
+        "K----------------------------3333333---------------------------K"
+      ],
+      "params": {
+        "fast": 234,
+        "treeRate": 70,
+        "hideMBlock": true,
+        "hideCreate": true
+      }
+    },
+    {
+      "n": 19,
+      "kind": "scattered",
+      "counts": {
+        "2": 300,
+        "5": 65,
+        "6": 2,
+        "8": 58,
+        "9": 9,
+        "11": 9,
+        "14": 200
+      },
+      "params": {}
+    },
+    {
+      "n": 20,
+      "kind": "drawn",
+      "rows": [
+        "<33333333333333333333333333333333333333333333333333333333333333[",
+        "3                                                              3",
+        "3                                                              3",
+        "3                                                              3",
+        "3           YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY           3",
+        "3           YC     F        F   Z         W    F òKY           3",
+        "3           Y          W           F     F       òòY           3",
+        "3           Y    F            òòòòò          F   F Y           3",
+        "3           YW         F      ò   ò  F             Y           3",
+        "3           Y                 ò P ò             W  Y           3",
+        "3           Y    W F      F   òF  ò   F    F       Y           3",
+        "3           Y                 òòòòò   W        F   Y           3",
+        "3           Y F              F                     Y           3",
+        "3           Yòò       F   W       F       F      F Y           3",
+        "3           YKò F               Z           W     CY           3",
+        "3           YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY           3",
+        "3                                                              3",
+        "3                                                              3",
+        "3                                                              3",
+        "\"33333333333333333333333333333333333333333333333333333333333333|",
+        "5##############################444#############################5",
+        "--~~-~--~-~--~~-~~--~--~-D-D-++-L-WW-D-D-~--~--~-~~-~--~~-~~-~--",
+        "-~--~-~~-~-~~--~--~~-~~--D-D-++ñLñWW-D-D--~~-~~-~--~-~~--~--~-~-"
+      ],
+      "params": {
+        "fast": 234,
+        "hideOpenWall": true
+      }
+    },
+    {
+      "n": 21,
+      "kind": "scattered",
+      "counts": {
+        "1": 600,
+        "5": 20,
+        "6": 1,
+        "8": 5,
+        "9": 30,
+        "11": 5,
+        "27": 20,
+        "28": 5,
+        "38": 700
+      },
+      "params": {}
+    },
+    {
+      "n": 22,
+      "kind": "drawn",
+      "rows": [
+        "###key#shop###MTMMMMMMMMMMMMMMMMMMMMM-----MMMMMMMMMMMM-MM--!##LL",
+        "##Káà44@@@@@##MMMMMMMMMMMMMMMMMMMMMM-MMMMM-MMMMMMMMMM-M-M-P-##LL",
+        "##Ká3##@@@@@@DMMMMMMCMMMMMMMMMMMMMM-MMMMMMM-MMM<MMMM-MMM----##DD",
+        "##Káà##@@@@@##M-MMMMMMMMMMMMMMMM---MMMMMMMM-MMMMMMM-MMMMMMMM##DD",
+        "#######X######MM-MMMMMMMMMMM----MMMMMMMMMMMM-MMMMM-MMMMMMMMM##DD",
+        "##ñ-----##MMMMMMM-MMMMM-----MMMMMMMMMMMKMMMMM-MMM-MMMMMMMMMM##DD",
+        "##########MMMMMMTMMMMM-MMMMMMMMMMMMMMMMMMMMMMM-M-MMMMMMMMMMMMMMM",
+        "MMMMMMMMMMMMMMMMMMMMM-MMMMMMMMMMMMMMMMMMMMMMMMM-MMMMMMCMMMMMM-MM",
+        "MMMMMMMM-----MMMM----MMMMMMMM[MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-MMM",
+        "MMMM----MMMMM----MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMTMMMMMMMMMMM-MMMM",
+        "MMM-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-MMM",
+        "MM-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-MM",
+        "MM-MMMMMMCMMMMMMMMMMMMMMMBWWWWWWWWWW-------------------------MMM",
+        "MM-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-MM",
+        "MM-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMTMMMMMMMMMMMMMMM-M",
+        "MMM-------MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-MM",
+        "MMMMMMMMMM-----MMMMMMMMMMMMMMMM]MMMMMMMMM-M-MMMMMMMMMMMMMMMM-MMM",
+        ")))))))))MMMMMM-MMMMMMMMMMMMMMMMMMMMMM-M-M-M-MMMMMMMMCMMMMM-MMMM",
+        "22222222)MMTMMM-MMMMMCMMMMMMMMMMMMMMM-M-MMMMM-MMM-MMMMMMMM-MMMMM",
+        "22222222)MMMMMM-MMMMMMMMMMMMMMM------MMMMMMM-MMM-M-MMMMMM-MMMMMM",
+        "22222222)MMMMMM-MMMMMMMMMM-----MMMMMMMMMMMM-MMM-MM-MMMMM-MMMMMMM",
+        "--222222)MMMMMM-----------MMMMMMMMMMMMMMMM-MM-M-MMM-M-M-MMMMM\"MM",
+        "K-222222)MMMMMMMMMMMMMMMMMMMMMMMMMM|MMMMMMM--M-MMMMM-M-MMMMMMMMM"
+      ],
+      "params": {
+        "fast": 234
+      }
+    },
+    {
+      "n": 23,
+      "kind": "scattered",
+      "counts": {
+        "1": 40,
+        "6": 3,
+        "16": 30,
+        "27": 80,
+        "34": 2,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 1,
+        "65": 800
+      },
+      "params": {}
+    },
+    {
+      "n": 24,
+      "kind": "drawn",
+      "rows": [
+        "T    P  #the#step#of#faith#------~Kñ-------U-----#---D-D-D-D-LL",
+        "######----------------------º44444444-------»-K--#½############",
+        "-----------------------------#       ------#####»-#-----³-------",
+        "-----------------------------#        -----:------#----³-³------",
+        "------###--------------------#        -----:------#--³³---³-----",
+        "--------#--------------------#        -----:------#-#------¼----",
+        "--------#--------------------#        -----#####--#-#-----------",
+        "--------#--------------------#        -----#---;--#-#------¼----",
+        "--------#--------------------#        -----#<###--#-#-----------",
+        "--------#---------õ---------º#         ----#[#----#-#-----³-----",
+        "--K-----#¹########88888888888#         ----#|#----#-#----³--W---",
+        "-XXX----#      #             #         ----#\"#----#-#-------W---",
+        "        #      #             #          ---#-#----#-#---³---W---",
+        "        #     #             #          ----------#-##-³----W---",
+        "        #      #             #             ;;;;;- #½K#³-----W---",
+        "        #      #             #                 +-+####------W---",
+        "        #      #             #                 +-+----³-----W---",
+        "    XXXX#      #             #                 +-+---³------W---",
+        "         ¹     #             #                 +-+###-----------",
+        "       ###     #             #    U            +-+#--------7----",
+        "               #             #                 + +#   ##C.!.C## ",
+        "               #             #                 + +#   ######### ",
+        "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 0,
+        "lavaRate": 75,
+        "gravOn": true,
+        "sideways": true,
+        "lavaFlow": true
+      }
+    },
+    {
+      "n": 25,
+      "kind": "scattered",
+      "counts": {
+        "6": 1,
+        "36": 3,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 1,
+        "68": 70,
+        "69": 50,
+        "70": 9,
+        "71": 25,
+        "72": 9,
+        "73": 18
+      },
+      "params": {}
+    },
+    {
+      "n": 26,
+      "kind": "drawn",
+      "rows": [
+        "::::::::::::::::::::::::::::::::::::::::::::::::####amulet####::",
+        ":###########::::::::::::::::::::::::::::::::::::#55]-----]---#::",
+        ":#         #::::::::::::::::::::::::::::::::::::#5----]--L-ò#::",
+        ":#    P   HOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO::::::#55-]------]-#::",
+        ":#K        #::::::O::::::::::::-:::::::::O::::::###D##########::",
+        ":###########::::::O::::::::::::-:::::::::O:::::::::O::::::::::::",
+        "::::::::::::::::::O::::::::::::-:::::::::O:::::::::O::-----:::::",
+        "::::::::::::::::::O::::::::::::-:::::::::O:::::::::O::+++:-:::::",
+        "::::::::::::::::::O::::::::::::-:::::::::O:::::::::O::+++:-:::::",
+        "::::::::::::::::::O::::::::::::-:::::::::O:::::::::O::::::-:::::",
+        ":::::::::::OOOOOOOO::::::::::::-::::#####D###::::::O::::::-:::::",
+        ":::::::::::O:::::::::::::::::::-::::#K;     #::::::OOOOO::-:::::",
+        ":::::::::::O:::::::::::::::::::-::::#;;     #::::::::::O::-:::::",
+        ":::::######D#############::::::-::::# W     #::::::::::O::-:::::",
+        ":::::#!---...----T---I--#::::::-::::#       #::::::::::O::-:::::",
+        ":::::#----K----F------ñ#::::::-::::#     * #::::::::::O::-:::::",
+        ":::::#-S---I----------Z-#::::::-::::#       #::::::::::O::-:::::",
+        ":::::####################::::::-::::#   W   #::::::::::O::-:::::",
+        ":::::::::::::::::::::::::::::::-::::#       #::::::::::O::-:::::",
+        ":::::::::::::::::::::::::::::::-::::#4444444#::::::::::O::-:::::",
+        "::::::::::::::::::::::::+++::::-::::#K;-----DOOOOOOOOOOOOOOOOO::",
+        "###rogue###:::::::::::::+++-----::::#########:::::::::::::::::::",
+        "#was#hereÃ#:::::::::::::::::::::::::::::::::::::::::::::::::::::"
+      ],
+      "params": {
+        "fast": 234,
+        "hideGems": true,
+        "hideCreate": true
+      }
+    },
+    {
+      "n": 27,
+      "kind": "scattered",
+      "counts": {
+        "3": 3,
+        "6": 1,
+        "7": 1,
+        "10": 400,
+        "16": 999,
+        "38": 50,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 1,
+        "65": 3,
+        "70": 1
+      },
+      "params": {}
+    },
+    {
+      "n": 28,
+      "kind": "drawn",
+      "rows": [
+        "#diary·#day#three¸################## P #########################",
+        "###################################### ############¹   #########",
+        "#you#slept#well#last#night#after#######  ########## ### ########",
+        "###################################### ## ######### #### #######",
+        "#the#unexpected#discovery#of#the###### ##;######### #####  #####",
+        "###################################### ##;######### ####### ####",
+        "#fabled#amulet#of#yendor´##the######## ##;######### ####### ####",
+        "###################################### ##;######### #######  ###",
+        "#amulet#was#long#thought#to#be######## ##;######### ######### ##",
+        "###################################### ## ######### ######## ###",
+        "#lost#in#a#land#stangely#called####### ###  ####### ######  ####",
+        "######################################ñ#### ####### ###### #####",
+        "#¶rogue¶´##many#of#your#fellow########4### ##º      ##### ######",
+        "######################################4#  ### ##### ### T#######",
+        "#archaeologist#friends#have#spent#####4 ##### ##### ## #########",
+        "###################################### ###### ##### ### ########",
+        "#countless#hours#trying#to#get######## ###### ##### ####  ######",
+        "###################################### ###### ##### ###### #####",
+        "#the#amulet´##how#ironic#that######### ###### #####¹####### ####",
+        "###################################### ###### ##### ######## ###",
+        "#you#should#stumble#across#it´######## ######X####====####### ##",
+        "#######################################        º#=======###### #",
+        "#what#other#mysteries#await#in#krozµ############=========#####L#"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true,
+        "hideStairs": true,
+        "hideOpenWall": true
+      }
+    },
+    {
+      "n": 29,
+      "kind": "scattered",
+      "counts": {
+        "1": 50,
+        "6": 550,
+        "10": 210,
+        "27": 150,
+        "28": 6,
+        "36": 2
+      },
+      "params": {}
+    },
+    {
+      "n": 30,
+      "kind": "drawn",
+      "rows": [
+        "1111144       ##C######locksmith#shoppe######C##         RRRRRRR",
+        "1111144       ##]##K#K#K#K#K#-3-3#K#K#K#K#K##]##        RRRRRRRñ",
+        "1111144          ##:::::::::######::::::::;##         RRRRRRRCYY",
+        "1111144          ##------------------------##     666RRRRRRRR66 ",
+        "1111144          #############--#############     6666666666666 ",
+        "1111144                                           HOOOOOOOOH    ",
+        "1111144                                        6666666666666    ",
+        "1111144                                        66RRRRRRR6666    ",
+        "1111144                                        RRRRRRR          ",
+        "1111144                                      RRRRRR           YY",
+        "1111144               P                    RRRRRR             YZ",
+        "1111144                                 RRRRRRRRRR            YY",
+        "1111144                              RRRRR333RRRRR              ",
+        "1111144                             RRR3333333RRRRR             ",
+        "@@@@@##                           RRR3333333333RRRRR            ",
+        "MMMMM##                           RRR333333333RRRRR             ",
+        ")))))##                          RRR33333333RRRRR               ",
+        "MMMMM##                        RRRR333333RRRRRRR        DDDDDDDD",
+        "(((((##                       RRRR3LL3RRRRRRRR          DDDDDDDD",
+        "MMMMM##                      RRRRRRRRRRRRRR             DDDDDDDD",
+        "$$$$$##                     RRRRRRRRRRRR                DDDD7777",
+        "MMMMM##                     RRRRRRRR                    DDDD77ôô",
+        "]]K]]##                   RRRRRRK]                     DDDD77ô!"
+      ],
+      "params": {
+        "fast": 234,
+        "hideCreate": true
+      }
+    },
+    {
+      "n": 31,
+      "kind": "scattered",
+      "counts": {
+        "5": 70,
+        "6": 2,
+        "9": 50,
+        "19": 500,
+        "20": 150,
+        "21": 6,
+        "25": 3,
+        "27": 20,
+        "45": 1,
+        "48": 2,
+        "49": 2,
+        "50": 2,
+        "51": 2
+      },
+      "params": {
+        "treeRate": 15
+      }
+    },
+    {
+      "n": 32,
+      "kind": "drawn",
+      "rows": [
+        " P                     I    ô 9                              K ",
+        "XXXXXXXXXXXXXXXXXXXXXXXXXX##77;XXXXXXXXXX##XXXXXXXXXXXXXXX##;;XX",
+        "XXXXXXXXXXXXXX##XXXXXXXXXXXXIICXXXXXXXXXXXXXXXXX##XXXXXXXXXX;;XX",
+        "XXX##XXXXX!XXXXXXXXXXXXX##XX---XXXXXXXXXXXXXXXXXXXXXXXXXXXXX;;##",
+        "XXXXXXXXXXXOOOOOOOOOOOOOOOOO---X##XXXXXXXXXXXXXXXXXXXX##XXXX;;XX",
+        "XXXXXXXX##XXXXXXXXXXXXXXXXXX---XXXXXXXXXXXXXX##XXXXXXXXXXXXX;;XX",
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXW-+XXXXX##XXXXXXXXXXXXXXXXXXXX##;;XX",
+        "XXXXXXXXXXXXXXXX##XXXXXXXXXXW-+XXXXXXXXXXXXXXXXXXXXXXXXXXXXX;;XX",
+        "##XXXXXXXXXXXXXXXXXXXXXXXXXXW-+XXXXXXXXXXXXXXXXOXXXXXXXXXXXX;;XX",
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXW-+XXX##XXXXXXXXXXXOXXXXXX##XXXX;;XX",
+        "XXX##XXXXXXXXXXXXXXXXXXXX##XW-+XXXXXXXXXXX##XXOOOXXXXXXXXXXX;;XX",
+        "XXXXXXXXXX##XXXXXXXXXXXXXXXXW-+XXXXXXXXXXXXXXXOQOXXXXXXXXXXX;;##",
+        "XXXXXXXXXXXXXXXXXÅXXXXXXXXXXW-+XXXXXXX##XXXXXXOOOXXXX##XXXXXXX",
+        "XXXXXX##XXX##rip##XXXXXXXXXXW-+XXXXXXXXXXXXXXXXOXXXXXXXXXXXX--XX",
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXXX-XXXXXXXXXXXXXXXXOX##XXXXXXXXXCCXX",
+        "XXXXXXXXXXXX##XXXXXXXXXXXXXXXOXXXX##XXXXXXXXXXXXXXXXXXXXXXXX##XX",
+        "XXXXXXXXXXXXXXXXXXXXXXXXX##XXOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "XX##XXXXXXXXXXXXXXXXXXXXXXXXXOXXXXXX##XXXXXXXXXXXXXXXXXX##XXXXXX",
+        "XXXXXXXX##XXXXXXXXXXXXXXXXXXXOXXXXXXXXXXXXX##XXXXXXXXXXXXXXXXXXX",
+        "XXXXXXXXXXXXXXXXXXXX##XXXXXXXOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "XCCXXXXXXXXXXX##XXXXXXXXXXXXXOXX##XXXXXXXXXXXXXXXXXXXX##XXXXXXXX",
+        "XCCXX##XXXXXXXXXXXXXXXXXXXXXXOXXXXXXXXXXXXXXXXXXXXX#do#you#dare#",
+        "XXXXXXXXXXXXXXXXXXXXXXXX##XXXLXXXXXXXXXX##XXXXXXXXX####go#downÃ#"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true,
+        "hideStairs": true
+      }
+    },
+    {
+      "n": 33,
+      "kind": "drawn",
+      "rows": [
+        "##tunnels#of#kroz###########-P--################################",
+        "########################X###----######X##-------D--------##X####",
+        "############################----#########-------D--------#######",
+        "L---N-----######ò  ò ò######-----------------########----#######",
+        "L---N-----##X###  CC  555555-----------------#####X##1111#######",
+        "######----######ò ò  ò###############################----#####X#",
+        "######1111###########################################1111#######",
+        "#X####----##############X#######magic#####X##########----#######",
+        "######1111####################----##############----N-----#",
+        "######----####################---------##############----N-----#",
+        "######1111#######X############----#########X##########----#",
+        "######----########################-########################1111#",
+        "######1111################X#######-########################----#",
+        "######----########################---------N-------------------#",
+        "###X##----##########################################-----------#",
+        "######----------------ñ########################X####----########",
+        "######-----------------444444%######################1111########",
+        "###################----#############################----#####X##",
+        "###################1111#############X###############1111########",
+        "############X######----#############################----########",
+        "###################-------N-----------------------------########",
+        "##X################-------N-----------------------------##X#####",
+        "################################################################"
+      ],
+      "params": {
+        "fast": 234,
+        "hideStairs": true,
+        "hideOpenWall": true
+      }
+    },
+    {
+      "n": 34,
+      "kind": "drawn",
+      "rows": [
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~W-----------E----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~------------E----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~----~~~~~~~~~----~~~~~~~~~~W---E------------------P",
+        "~~~~~~~~~~~~~----~~~~~~~~~----~~~~~~~~~~----E-------------------",
+        "~~~~~~~~~~~~~----~~~~~~~~~----~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~----~~~~~~~~~----~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~",
+        "~~~~W------------~~~~~~~~~----~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~",
+        "~~~~-------------~~~~~~~~~----~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~----~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~W---~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~----~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~----~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~----~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~----~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~----~~~~~~~~~~--------------<~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~----~~~~~~~~~~W-------------[~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~---|~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~---\"~~~~~~~~~",
+        "~~~~---W~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~-----------------------------~~~~~~~~~",
+        "~~~~----~~~~~~~~~~~~~~~~~~W-------------------------W--~~~~~~~~~",
+        "~~~~LLLL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+      ],
+      "params": {
+        "fast": 234,
+        "hideLevel": true
+      }
+    },
+    {
+      "n": 35,
+      "kind": "drawn",
+      "rows": [
+        "VVVV--P-VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV",
+        "VVVV----VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV",
+        "VVVV----VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV",
+        "VVVV----VVVVVVVVVVVVVVVVVVVVVVVVVVVVV-----------------------VVVV",
+        "VVVV---------------VVVVVVVVVVVVVVVVVV-----------------------VVVV",
+        "VVVV---------------VVVVVVVVVVVVVVVVVV----VVVVVVVVVVVVVVV----VVVV",
+        "VVVVVVVVVVVVVVV----VVVVVVWWVVVVVVVVVV----VVVVVVVVVVVVVVV----VVVV",
+        "VVVVVVVVVVVVVVV----VVVVVVWWVVVVVVVVVV----VVVVVVVVVVVVV?V----VVVV",
+        "VVVVVVVVVVVVVVV----VVVVVVWWVVVVVVVVVV----VVVVVLLVVVVVVVV----VVVV",
+        "VVVVVVVVVVVVV]V----VVVVVVWWVVVVVVVVVV----VVVVV--VVVVVVVV----VVVV",
+        "VVVVVVVVVVVVVVV----VVVVVVWWVVVVVVVVVV----VVVVV--VVVVVVVV----VVVV",
+        "VVVVVVVVVVVVVVV----VVVVVVWWVVVVVVVVVV----VVVVV--VVVVVVVV----VVVV",
+        "VVVVVVVV-----------VVVVVVWWVVVVVVVVVV----VVVVV--VVVVVVVV----VVVV",
+        "VVVVVVVV-----------VVVVVVWWVVVVVVVV]V----VVVVV--VVVVVVVV----VVVV",
+        "VVVVVVVV----VVVVVVVVVVVVV++VVVVVVVVVV----VVVV----VVVVVVV----VVVV",
+        "VVVVVVVV----VVVVVVVVVVVVV++VVVVVVVVVV----VVVV----VVVVVVV----VVVV",
+        "VVVVVVVV----VVVVVVVVVVVVV++VVVVVVVVVV----VVVV----VVVVVVV----VVVV",
+        "VVVVVVVV---------------------------------VVVV----VVVVVVV----VVVV",
+        "VVVVVVVV---------------------------------VVVV----VVVVVVV----VVVV",
+        "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV----VVVVVVV----VVVV",
+        "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV---------------VVVV",
+        "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV---------------VVVV",
+        "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV"
+      ],
+      "params": {
+        "fast": 234,
+        "lavaRate": 15,
+        "lavaFlow": true
+      }
+    },
+    {
+      "n": 36,
+      "kind": "scattered",
+      "counts": {
+        "3": 100,
+        "6": 1,
+        "30": 200,
+        "32": 100,
+        "33": 100,
+        "37": 100,
+        "39": 100,
+        "66": 200,
+        "67": 100
+      },
+      "params": {}
+    },
+    {
+      "n": 37,
+      "kind": "drawn",
+      "rows": [
+        "\"|[<-333333333---------------------------------`--D--D--D--D-&LL",
+        "##############¼###XXX###########################################",
+        "-----------I----------------------F------------¼#-------",
+        "###############################³###########³#############XXX###»",
+        "--------------------------#C$$2$2$2$2$2$2$2$2$$$$$$$$$$$$$$$$#1-",
+        "¹############³###########º#####################################-",
+        "-#Tô-M-----------------º#-----#-U-#--------------------------#1-",
+        "-##############777777³###-#####õõõ#############################-",
+        "-P-W #+------#222222C#+-------------------------------1-1-1-1-ò",
+        "-### ########³###########-#####888#³##################³#########",
+        "-#+- #-------------------4---#292#--1(T(((((MMMMMMMMMMMMMMMMMMK",
+        "-### ####################-##³###-##############################³",
+        "-#W- #ñ-------------------#1³1#292#-----------------------------",
+        "-### #######################³###-##::;::::::::::::::::::::::::::",
+        "-#T- #----------------------³1#292#--T--------------------333333",
+        "X### ##³####################³###-#######################³#######",
+        "X#*- #--@1@1@1@1@1@1@1@1@!#1³1#---000000---#------#-------#-----",
+        "X### #######################³############³##--##³###³#######³##-",
+        "--------C--~-------------#1³1#K-DDD-----³1#--#---1---#*I*#1³1#K",
+        "##############³#############³############³##--##########³###³##-",
+        "¹-)------------........)2K#1³1#K-DDD-----³1#--------------5---#»",
+        "############################³############³#####################-",
+        "Q-1;1;1;1;1;1;1;1-1-1-1-1-1-------B----#-----------------------U"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true
+      }
+    },
+    {
+      "n": 38,
+      "kind": "scattered",
+      "counts": {
+        "5": 70,
+        "6": 3,
+        "9": 50,
+        "11": 5,
+        "12": 2,
+        "16": 5,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 1,
+        "54": 300,
+        "64": 960
+      },
+      "params": {}
+    },
+    {
+      "n": 39,
+      "kind": "scattered",
+      "counts": {
+        "1": 100,
+        "4": 400,
+        "6": 3,
+        "13": 500,
+        "25": 5,
+        "27": 50,
+        "46": 1,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 1
+      },
+      "params": {}
+    },
+    {
+      "n": 40,
+      "kind": "drawn",
+      "rows": [
+        "   00000000000000-Y-----000000000-0-0000000000000000000000-0000",
+        " P 0000000000000--000-00-000000000-0-----K000000000-000-----0000",
+        "   000000000000-0-0000-0-00000000-0000000000000000-0000000000-00",
+        "0-000000000000000-00000-00000000000000000-000000-0000-0000W0--00",
+        "00000000000000000I000000-000!000000-0000000-0000--00-00000W00000",
+        "0-0000000000000000000000000YYY000000------0-0---0000000000W000-0",
+        "0--000000000000-0000000000---------000-0--0000000000000000W-000-",
+        "0000000000000000-00000000000000000-00000000000000000000000-00000",
+        "000--0000000000000-000-0-000000000000000000000000000000000000-00",
+        "00000000000000000-00000-0000000000000000000-0-666666666000000-00",
+        "0-0000-00000000--000000000000000000000-0----00DDDóLL&6600000-000",
+        "--00000000000-00-0000000000000000000000-0000-0666666666000--0000",
+        "0-0000000000000000000000-0000-0000-00000-0000-000000000000-0000",
+        "-000000000000000-0000000-0-0000-00-00000--00000000000000-0000000",
+        "0-00000000000000-0-0000000-00-00000000000000000000000000000000-0",
+        "00-00000000000000-0000-00000-000-000-0--000000000000000000-0-000",
+        "00000000000000000----0-00000T-000-000-000000000000-00000000-0000",
+        "000--0000000000000000000000000000000000000000000000--0000000-000",
+        "00-00-00000-000000000000000000000000000000000000--00000000000-00",
+        "0-00000000-000000000000-00000000000000000000000-00-00000000000--",
+        "-00000000-0-000000-00000-------------0++++++++++0000000000000000",
+        "000--00000000---0-0-0--000000000000000000000000000--0-0-0-0-0-00",
+        "---00---00000-00-000-000-00<0[0|0\"0000000000000000-0-0-0-0-0-000"
+      ],
+      "params": {
+        "fast": 234
+      }
+    },
+    {
+      "n": 41,
+      "kind": "scattered",
+      "counts": {
+        "5": 25,
+        "6": 2,
+        "7": 1,
+        "9": 25,
+        "27": 100,
+        "36": 1,
+        "65": 300,
+        "66": 900
+      },
+      "params": {}
+    },
+    {
+      "n": 42,
+      "kind": "drawn",
+      "rows": [
+        "###########klose#enkounters#of#the#krazy#kubikal#kindÃ##########",
+        "3                               P                              3",
+        "##-##############:########:#######:###########:##############:##",
+        "XXXXXXXXX##~W~W~W~W~##-M----M.--$$$$$$$$$-9/-/\\--\\-|##---ò---",
+        "---------##*~*~*~*~*##-.-M--##$$$$$$$$$##\\--/-\\-/\\##YYYYYYYYY",
+        "MMMMMMMMM##~W~W~W~W~##M---.-M-##111111111##-/-\\/--/-##(((((((((",
+        ")))))))))##*~*~*~*~*##.-.--.##222222222##/\\--\\-\\-/##(((((((((",
+        "C))))))))--~W~W~W~W~##ó.----M##333333333##ü-//-\\-/-9-(((((((((",
+        "###################-################################9##55555555-",
+        "----##YYYYYYYYY##222222222------0---W##RRRRRRRRR##MMMMMMMMM",
+        "-----------YYYYYYYYY##@@@@@@@@@##---000---##RXXXXXXXR##MMMMMMMMM",
+        "XXXXXXXXX##YYYYYYYYY##@@@@@@@@@##--00G00--##RXXXKXXXR##MMMMMMMMM",
+        "---------##YYYYYYYYY##@@XXX@@@@##---000---##RXXXXXXXR##MMMMMMMMM",
+        "##YYYYYYYYK##@@XZX@@@@##----0---W##RRRRRRRRR##MMMMMMMMK",
+        "-#####################-##########ô##################H##Z########",
+        "~-~[~-~-~##WWW......à1:1:1:1:1:##-773C7--7##=--=I==-=##ááááááY0\"",
+        "-~-~-~-~-##WWW......##1:1:1:1:1##7-777-77-##!==-=--==##ááááááY00",
+        "~-~-~-~-~##.........##:1:1:1:1:##-77--77-7##=======-=##ááááááYYY",
+        "-~-~-~-~-##.........##1:1:1:1:1##7-7-77-77##-==-=-==I##ááááááááá",
+        "K-~-~-~-~-à..<......##:1:1:1:1ñ##77-7777---I=--=-=--=##222222222",
+        "############################################################44##",
+        "LL---V--V-VV-V--VV---D-----D----D----D--66333333333333333-WWWW",
+        "LL--V-VV-V--V-VV--V--D-----D----D----D--66YYYYYYYYYYYYYYYYYYYY"
+      ],
+      "params": {
+        "fast": 234,
+        "treeRate": 35
+      }
+    },
+    {
+      "n": 43,
+      "kind": "scattered",
+      "counts": {
+        "1": 999,
+        "6": 2,
+        "9": 300,
+        "41": 8,
+        "54": 100
+      },
+      "params": {}
+    },
+    {
+      "n": 44,
+      "kind": "drawn",
+      "rows": [
+        "#diary·#day#four¸###############################################",
+        "################################################################",
+        "#you¶ve#discovered#ancient#tablets#that#have#magical#mantras####",
+        "################################################################",
+        "#written#on#them´##these#short#prayers#seem#to#awaken#a#magical#",
+        "################################################################",
+        "#force#that#pervades#the#entire#kroz#kingdom´##as#you#drink####",
+        "################################################################",
+        "#from#your#water#pouch#and#chew#on#a#stick#of#dried#beef#you####",
+        "################################################################",
+        "#wonder#who#built#this#strange#place#called#kroz·#and#whyµ##if##",
+        "################################################################",
+        "#only#you#could#find#this#¶lost¶#information´´´get#the#real#####",
+        "################################################################",
+        "#story#on#kroz´##a#welcome#burst#of#excitement#urges#you#on´´´##",
+        "ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ",
+        "----¹-¹-¹-¹-¹-¹-¹-¹------------------------#-----~--------------",
+        "-----------------------------------³######³#-----~³#0000--------",
+        "½º»¼¹W-W-W-K-W-W-W-----------------³#-----³#-----~³#K----------K",
+        " P                ---------------ö9³#-####.#-----~³####-########",
+        "####                ####00000000000³#³-----------~³#K----------K",
+        "###==================###----------0³#.#########--~³####-########",
+        "###==================##############---#K-------0-~-----~DDDDDDLL"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 1,
+        "gravOn": true,
+        "sideways": true
+      },
+      "notes": [
+        "row 7 is 63 chars, not 64; original pads with Null"
+      ]
+    },
+    {
+      "n": 45,
+      "kind": "scattered",
+      "counts": {
+        "6": 4,
+        "22": 300,
+        "27": 500,
+        "28": 20,
+        "48": 2,
+        "49": 2,
+        "50": 2,
+        "51": 2
+      },
+      "params": {
+        "lavaRate": 30,
+        "lavaFlow": true
+      }
+    },
+    {
+      "n": 46,
+      "kind": "drawn",
+      "rows": [
+        "###<@@@@@@@@@@@@@@@@@@@@@@@@@#one#@@@@@@@@@@@@@@@@@@@@@@@@@FK###",
+        "Kö###@@@@@@@@@@@@@@@@@@@@@@@@@;!:@@@@@@@@@@@@@@@@@@@@@@@@@@###$[",
+        "öö((###@@@@@@@@@@@@@@@@@@@@@@@:::@@@@@@@@@@@@@@@@@@@@@@@@###$$$$",
+        "((((((###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@###$$$$$$",
+        "(((((((2###222222222222222222222222222222222222222222###2$$$$$$$",
+        "(((((((2((###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@###$$2$$$$$$$",
+        "(((((((2((((###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@###$$$$2$$$$$$$",
+        "(((((((2((((((###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@###$$$$$$2$$$$$$$",
+        "DD##(((2((((((((###@@@@@@@@@@@@@@@@@@@@@@@@@@###$$$$$$$$2$$$####",
+        "DD#f(((2(((((((((##############77##############$$$$$$$$$2$$$##CC",
+        "DD#o(((2((((((((ö##2------------------------2##ô$$$$$$$$2$$$t#àà",
+        "DD#u(((2((((((((ö----------F---P----S--------88ô$$$$$$$$2$$$w#MM",
+        "&&#r(((2((((((((ö##2------------------------2##ô$$$$$$$$2$$$o#MM",
+        "LL##(((2(((((((((##############99##############$$$$$$$$$2$$$##MM",
+        "####(((2((((((((###)))))))))))õõõõ)))))))))))###$$$$$$$$2$$$##àà",
+        "(((((((2((((((###))))))))))))))))))))))))))))))###$$$$$$2$$$$$$$",
+        "(((((((2((((###))))))))))))))))))))))))))))))))))###$$$$2$$$$$$$",
+        "(((((((2((###))))))))))))))))))))))))))))))))))))))###$$2$$$$$$$",
+        "(((((((2###))))))))))))))))))))))))))))))))))))))))))###2$$$$$$$",
+        "((((((###2222222222222222222222222222222222222222222222###$$$$$$",
+        "((((###))))))))))))))))))))))))))))))))))))))))))))))))))###$$ôô",
+        "\"(###))))))))))))))))))))))))))))))))))))))))))))))))))))))###ôK",
+        "###Kõ)))))))))))))))))))))))#three#))))))))))))))))))))))))F|###"
+      ],
+      "params": {
+        "fast": 234
+      }
+    },
+    {
+      "n": 47,
+      "kind": "scattered",
+      "counts": {
+        "1": 50,
+        "5": 90,
+        "6": 2,
+        "27": 50,
+        "29": 600,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 1
+      },
+      "params": {}
+    },
+    {
+      "n": 48,
+      "kind": "drawn",
+      "rows": [
+        "##################RRRRRRRRRRR#the#swamp#RRRRRRR-\\\\ü\\\\\\\\/\\\\\\\\\\\\\\C",
+        "LLDDD--VVVV--44----------------------------RR-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",
+        "LLDDD--VVVV--44--RRRRRRRRRRRRRRRRRRRRRRRR--RRR-/\\\\\\\\\\\\\\\\\\U\\\\\\",
+        "##################RRRR-------------------------RRR-\\\\\\\\/\\\\\\\\\\\\\\\\",
+        "RRRRRRRRRRRRRRRRRRRRRR--RRRRRRRRRRRRRRRRRRRRK))RRRR--\\\\\\\\\\\\\\\\\\\\\\",
+        "R-----RRR-------R----)))RR)))))))3)3)3)3)3)3)3)3)3RRR--\\\\\\\\\\\\\\\\\\",
+        "R-RRRRR-RRRRRRR-RRR-RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR--/\\\\\\/\\ü",
+        "R-RR-RR-RRR\\\\\\RRR-RRR---------------------------------RR--\\\\\\\\\\",
+        "R-RRRR-RR\\\\\\K\\\\RRR-RR-RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR--\\\\\\",
+        "R-RRR-RRRR\\\\\\\\\\\\RRR-RR------------Z-8-999999999999ö--RRRRRRR--\\",
+        "R-RR-RRRR\\\\\\\\\\\\ü\\RR-RRR-RRRRRRRRRRRRR8-111111111111RRR-----RRRR-",
+        "R---RRRRRR-\\\\\\RRRR-RRRRRFRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR-RRRR",
+        "RRRR-RRRRR-RRRRRR-RRRS(((((+((((((((((((((((((K++(3RRRRRRRRR-RRR",
+        "RRRRR-RRRRããRRRR-RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR*R.R*RRR-RR",
+        "RRRRRRTRRR1R-RR-RRR@@@@@@@RRRRRRRRRRRRRRRRRR------------óRRRñRR",
+        "###RRRRRR11RR--RRRR@@RRRRFRR-66----H----------RRRRRRR*R.R*RRRRRR",
+        "77###RRR111RR--RR*F@@@22@WRR-RR-RRORRRRRRRRRRRRRRRRRRRRRRRRRRR  ",
+        "7777###RR11RR--RR*F@@@22@WRR-RR-RRORR                          P",
+        "77777###RR1RR--RR*F@@@22@WRR-RR-RRORR  RRRRRRRRR-RRRRRRRRRRRRR  ",
+        "77!777###RRRR--RR*F@@@22@WRR-RR-RR>RRFSRRRRRRRRRàRRRRRRRRRRRRRRR",
+        "7777777##RRRR--RR*F@@@22@WRR-RR-RRRRRàààààààààà3333333333Càààààà",
+        "77777777##RRR--RRRRFFRRRRRRR-RR-RRRRRRRRRRRRRRRRRRRRRRRRRRRRRR--",
+        "U7777777##RRR----------------RR---------------------------------"
+      ],
+      "params": {
+        "fast": 234
+      }
+    },
+    {
+      "n": 49,
+      "kind": "scattered",
+      "counts": {
+        "5": 30,
+        "6": 2,
+        "7": 2,
+        "11": 5,
+        "32": 781,
+        "38": 650
+      },
+      "params": {}
+    },
+    {
+      "n": 50,
+      "kind": "scattered",
+      "counts": {
+        "6": 1,
+        "35": 15,
+        "45": 1
+      },
+      "params": {}
+    },
+    {
+      "n": 51,
+      "kind": "scattered",
+      "counts": {
+        "4": 999,
+        "6": 1,
+        "9": 50,
+        "21": 3,
+        "35": 20,
+        "36": 1,
+        "48": 2,
+        "49": 2,
+        "50": 2,
+        "51": 2
+      },
+      "params": {}
+    },
+    {
+      "n": 52,
+      "kind": "drawn",
+      "rows": [
+        "  ]  ]   ]] ]]  ] ]      ]         ]] ---",
+        "  ]  ]   ]  ]]    ] ] ]] ]  -P-",
+        "  ] ]  ]  ]ñ ] ]]  ]    ] ] ---",
+        " ]] ]  ]] ]   ]  ]  ]  ]] ]",
+        "]  ] ] ]  ] ]] ]  ]   ]]]  ",
+        "] ] ]   ]  ] ]   ] ]] ]   ] ",
+        "]   ]  ] ] ]  ] ]] ] ]  ]] ",
+        "]   ] ] ]  ]   ] ]]  ]  ]  ] ",
+        " ] ]     ]  ] ]]      ] ]] ]   ]",
+        " ]  ]]] ]  ] ] ] ] ] ]  ] ",
+        "  ]   ]  ] ] ó] ] ] ]ò] ] ]  ",
+        "]   ]  ]    ]   ]]   ]    ]]     ] ",
+        "#####444############follow#the#bread#crumbs#####################",
+        "àààà#555#&àààààààààààààààààààààààààààààààààààààààà@MMMMMMMMK##LL",
+        "àààà66666ààààààààààààààààààààààààààààààààààààààààà@MMMMMMMMM##",
+        "àààààààààààààààààààààààààààààààààààààààààààààààààà@MMMMMMMMM##``",
+        "àààààààààààààààààààààààààààààààààààààààààààààààààà@MMMMMMMMM##",
+        "ààààààààààààààààààààààààà!àààààààààààààààààààààààà@MMMMMMMMM##``",
+        "àààààààààààààààààààààààààààààààààààààààààààààààààà@MMMMMMMMM##",
+        "àààààààààààààààààààààààààààààààààààààààààààààààààà@MMMMMMMMM##--",
+        "àààààààààààààààààààààààààààààààààààààààààààààààààà@MMMMMMMMM##--",
+        "00àààààààààààààààààààààààààààààààààààààààààààààààà@MMMMMMMMM##--",
+        "K0àààààààààààààààààààààààààààààààààààààààààààààààà@MMMMMMMMM66--"
+      ],
+      "params": {
+        "fast": 234,
+        "hideCreate": true,
+        "hideMBlock": true,
+        "makeFloor": {
+          "tile": 250,
+          "cf1": 6,
+          "cf2": 7,
+          "bf1": 0,
+          "bf2": 0
+        }
+      }
+    },
+    {
+      "n": 53,
+      "kind": "drawn",
+      "rows": [
+        "U----------; 55555--------------------------##-U-##            ",
+        "XXXXXXXXX»-; ##³############################-##---## ##³³³³³³##¹",
+        "-----------; #2³2#K--B-----------------------##---## ##³³³³³³##-",
+        "-----------; ##³##-############################-I-## ##W³³³³W##-",
+        "-----------; #2³2#      M   M   M   M   M    ##-W-## ##-W³³W-##-",
+        "-----------; ##³############################-##--W## ##::WW::##-",
+        "XXºXXXX----; #2³2#³------------------K-------##-W-## ##2 22 2##-",
+        "------;----; ##³##³####################-----:##W--## ##########-",
+        "------;----; #2³2#³-----------------------:::##-W-## C--7;-;---",
+        "------;----; ##³##³---------------------::-::##--W## ##########-",
+        "[-----;----; #2³2#--------------------:::::-:##-ó-## -1--1--ñ##-",
+        "------;----; ##³##XXXXXXXXXXXX½-----::::::::-##W--## ##########-",
+        "------;----; #2³|#-------------XXX::::::::::\"##-W-## -------C##-",
+        "------;----; ##³##--------------½##############--W##4##########-",
+        "------;----; #2³2#---------------#####-¼----C##-W-##--------K##-",
+        "------;----; ##³##`::::::::::::::##¼##XOXXXXX##W--##4##########-",
+        "------;----; #2³2#--`------`LL# ò-----------66õõõ##--------<##-",
+        "------;--»-; ##³################ ::³::;;;;;;;##888##4##########-",
+        "------#3333#     F               ##H##3333333##VVV##--------º##-",
+        "------######XXXXXXXXXXXXXXXXXXXXX###################4##########-",
+        "-------------------------I--------------------------------------",
+        "XX¹XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "                                P                               "
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true
+      }
+    },
+    {
+      "n": 54,
+      "kind": "drawn",
+      "rows": [
+        "  P  ##-U--------##-------##ºñ------------------##--DDDD-ò-KKKKK",
+        "II#II##----------##³#####-##--------------777---##»5555555555555",
+        "M   M###########-##³-----###########X##º########-##LLLLLLLLLLL",
+        "M   M##---;---------------##K---------##-##7-<[|##-#############",
+        "M   M###-#########################---###-######X##----------C\"",
+        "M   M##--------------------------77-44--------##-#############",
+        "M   M##-######################################º-##-³³³³³³³³³³³³³",
+        "M   M##---------------------------------D--K##--##-]]]]]]]]]]?]]",
+        "M   M######################################-##--##-abcdefghijklm",
+        "M   M##K³`³:³-³-³-³:³-³:³:³-³:³-³-³-³:³:³##-##--##-#############",
+        "M   M##-³`³-³:³-³:³:³:³-³-³:³-³:³-³:³:³-³##-##--##-##---------õ!",
+        "M   M##-³`³:³:³-³:³-³:³:³-³:³:³-³-³:³:³:³##-##--##-##³##########",
+        "M   M##-³`³:³:³-³:³-³:³-³W³:³-³:³-³:³:³:³##-##--##-##-----------",
+        "M   M##-³`³:³-³-³:³:³-³:³-³:³:³:³-³:³-³:³##-##--##-########³####",
+        "M   M##-³`³:³-³W³:³-³:³:³7³:³:³:³-³:³:³-³##-##--##-##-----------",
+        "M   M##-³`³-³:³-³:³:³:³:³³:³-³:³-³:³-³:³##-##-.##-####³########",
+        "M   M##-³-³-³:³-³:³:³-³-³-³:³:³-³W³:³-³:³##-##--##-##-----------",
+        "M   M##:³:³:³:³:³:³:³:³:³:³:³:³:³-³:³:³:³³³³##--##-############³",
+        "M   M##---                       ;          ##--##õ88----------³",
+        "M   M##-##VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV##--##0############³",
+        "M   M##D######################################--##~------------³",
+        "M K M##K-¹1¹¹1¹¹1¹11¹1¹¹11¹11¹1¹11¹¹1¹¹1¹¹11¹-º-44»------------³",
+        "M U M##K--¹11¹11¹1¹¹1¹11¹¹1¹¹1¹1¹¹11¹11¹11¹¹1¹--44--------------"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true
+      }
+    },
+    {
+      "n": 55,
+      "kind": "drawn",
+      "rows": [
+        " P          ;           1   #diary·#day#five¸#################",
+        "#######################XXXX#####################################",
+        "VVVYVVVVVVVVVVVVVVVVVVV----VVV#you¶ve#traveled#deeper#into#kroz#",
+        "VVVVVVVVVVVVVVVVVVYYVV---VVVV##################################",
+        "VVVVVVVYYVVVVVVVVVVYVV----VVYV#than#ever#before´##where#will####",
+        "YVVVVVVVYVVVVYVVVVVVV----VVVVV##################################",
+        "VVVVVVVVVVVVVVVVVVVV---VVVVVV#the#many#chambers#lead#toµ##and##",
+        "VVVYVVVVVVYVVVVVVVV----VVYYVVV##################################",
+        "VVVYVVVVVVVVVVVVVVV---VVVYVVV#what#do#they#protect#belowµ######",
+        "VVVVVVVVVVVVYVVVVVVV----VVVVVV##################################",
+        "VVVVVVVYVVVVYYVVVVVV----VVVVYV#you#have#a#good#feeling#these####",
+        "VVVVVVVVVVVVVVVVVVV---VVVVVVV##################################",
+        "VVYYYVVVVVVVVVVVVV----VVVVVVVV#questions#might#finally#be#######",
+        "VVVVVVVVYVVVYVVVV----VVVYYYVVV##################################",
+        "VVVVVVVVYVVVVVVV---VVVVVVVVVV#answered#during#this#expedition´#",
+        "VVVVVVVVYVVVVVVV----VVVYYVVVVV##################################",
+        "YYVVVYVVVVVVVVV----VVVVYVVVVVV#but#can#you#survive#to#learn#the#",
+        "VYVVVVVVVVVVVV---VVVVVVVVVVYV##################################",
+        "VVVVVVVVYVVVV----VVVYVVVVVVVVV#answersµ##a#deep#lava#pit#lies###",
+        "VVYVVVVVVVVV----VVVYYVVVVVVVVV##################################",
+        "VVYYVVVVVVV---VVVVVVVVVVYYYVV#before#you#forbidding#your#######",
+        "VVVVVVVYVV----VVYYVVVVVVVVVVVV##################################",
+        "VVVVVVVVVLLLLVVVVYVVVVVYVVVVVV#progress´´´it#doesn¶t#work´´´Ã###"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 1,
+        "gravOn": true,
+        "sideways": true,
+        "hideStairs": true
+      }
+    },
+    {
+      "n": 56,
+      "kind": "drawn",
+      "rows": [
+        "YVV P VVVYVVVVVYVVVVVVYVVYVVVVVXXVVVVVVVVV#U#VVVVVV¹-----7--!~+",
+        "VVV---VVVVVYVVVVVVVYVVVVYVVVYVVXXVVVVVVVVVV-VVVVVVVO#########X##",
+        "VYV--WVVYVVVVVYVVVVVVYVVVVYVVVVXXVVVVVVVVV---VVVVVVOVVVVVVVVVRVV",
+        "VVVV---VVVYVVVVVYVYVVVVVYVVVVYVXXVVVVVVVVV---VVVVVVOVVVVVVVVVRVV",
+        "VVYV---VYVVVVYVVVVVVVYVVVVVYVVVXXVVVVVVVVV--VVVVVVVOVVVVVVVVVRVV",
+        "VVVVV---VVVVVVVYVVVVVVVYVVVVVYVXXVVVVVVVVVV--VVVVVVOVVVVVVVVVRVV",
+        "VVYVVV---VVYVYVVVVYVVVYVVVVYVVVXXVVVVVVVVVV--VVVVVVOVVVVVVVVVRVV",
+        "VYVVYVV-W-VVVVVYVVVVYVVVVYVVVYVXXVVVVVVVVVV--VVVVVVOVVVVVVVVVRVV",
+        "VVYVVVV---VVYVVVVYVVVVYVVVVYVVVXXVVVVVVVVVVVHHVVVVVOVVVVVVVVVRVV",
+        "VYVVYVVV---VVVYVVVVYVVVVYVVVYVVXXVVVVVVVVVVV--VVVVVOVVVVVVVVVRVV",
+        "VVVYVVYVV---VYVVYVVVVYVVVVYVVVVXXVVVVVVVVVVV--VVVVVOVVVVVVVVVRVV",
+        "VYVVYVVVV---VVVVVVVYVVVYVVVVVYVXXVVVVVVVVVV--VVVVVVOVVVVVVVVVRVV",
+        "VVVVVVVYVV-W-VVYVVYVVVVVVVYVYVVXXVVVVVVVVVV--VVVVVVOVVVVVVVVVRVV",
+        "VVYVYVVVV---VVVVYVVVVYVVYVVVVVVXXVVVVVVVVVV--VVVVVVOVVVVVVVVVRVV",
+        "YVVVVVVYVV---VVYVVYVVVVVVVVYVVVXXVVVVVVVVV--VVVVVVVOVVVVVVVVVRVV",
+        "VVYVVYVVVVV-W-VVVYVVVVVYVVVVVYVXXVVVVVVVVV¹-VVVVVVVOVVVVVVVVVRVV",
+        "VYVVVVVVYVV---VVYVVVVYVVVVVYVVVXXVVVVVVVVV--VVVVVVVOVVVVVVVVVRVV",
+        "VVVVYVYVVVYV---VVVVYVVVVYVVVYVVXXVVVVVVVVV--VVVVVVVOVVVVVVVVVRVV",
+        "VYVVVVVYVVVVV---VVYVVVYVVVYVVVVXXVVVVVVVV--VVVVVVVVOVVVVVVVVVRVV",
+        "VVVYVVVVVVYVVV-W-VVVYVVVYVVVVYVXXVVVVVVVV--VVVVVVVVOVVVVVVVVVRVV",
+        "YVVVVVVVYVVVYVV---VVVVYVVVYVVVVXXVVVVVVVV--VVVVVVVVOVVVVVVVVVRVV",
+        "VVVYVYVVVVYVVVV---VVYVVVYVVVVYVXXVVVVVVVVV--VVVVVVVOVVVVVVVVVRVV",
+        "VYVVVVYVVVVVYVV#U#VVVVYVVVYVYVVXXVVVVVVVVV----------VVVVVVVVLLLV"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 1,
+        "gravOn": true,
+        "sideways": true,
+        "foundSet": [
+          44
+        ]
+      },
+      "renderOverrides": [
+        {
+          "tiles": [
+            17
+          ],
+          "source": "if level=56 then begin col(12,16);bak(4,7);write(Lava);bak(0,0)end else begin col(9,0);bak(1,7);write(River);bak(0,0)end;"
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "kind": "scattered",
+      "counts": {
+        "1": 600,
+        "5": 200,
+        "6": 2
+      },
+      "params": {}
+    },
+    {
+      "n": 58,
+      "kind": "scattered",
+      "counts": {
+        "4": 716,
+        "6": 5,
+        "7": 5,
+        "9": 20,
+        "11": 10,
+        "64": 715
+      },
+      "params": {}
+    },
+    {
+      "n": 59,
+      "kind": "drawn",
+      "rows": [
+        "##########K]K-WWWWñD          00%00         DDD&&LL##########",
+        "##VVVVVV############          00000    .    ############VVVVVV##",
+        "##VVVVVV44                                            44VVVVVV##",
+        "##VVVVVV44      .      .                        .     44VVVVVV##",
+        "#####44444                               )            44444#####",
+        "MMMM(                           P  .                       )MMMM",
+        "MMMM(                   (                                  )MMMM",
+        "MMMM(         .                                   (        )MMMM",
+        "MMMM(                                 .                    )MMMM",
+        "MMMM(                      44444444444                 .   )MMMM",
+        "MMMM(                      44VVVVVVV44                     )MMMM",
+        "CMMM(   .                  44VVVGVVV44       .             )MMMC",
+        "MMMM(          )       .   44VVVVVVV44                     )MMMM",
+        "MMMM(                      44444444444                     )MMMM",
+        "MMMM(                                           )          )MMMM",
+        "MMMM(                                   .                  )MMMM",
+        "MMMM(     .       .                                .       )MMMM",
+        "MMMM(                                                      )MMMM",
+        "#####44444                     .            .         44444#####",
+        "##VVVVVV44         (                     (            44VVVVVV##",
+        "##VVVVVV44                 )                          44VVVVVV##",
+        "##VVVVVV############          00000  .      ############VVVVVV##",
+        "##########K]-WWWWWWñ          00C00         D-D--K-K]K##########"
+      ],
+      "params": {
+        "fast": 234,
+        "lavaRate": 140,
+        "lavaFlow": true,
+        "hideCreate": true,
+        "hideOpenWall": true,
+        "hideTrap": true,
+        "hideMBlock": true
+      }
+    },
+    {
+      "n": 60,
+      "kind": "scattered",
+      "counts": {
+        "3": 25,
+        "5": 30,
+        "6": 4,
+        "9": 30,
+        "16": 30,
+        "25": 5,
+        "27": 100,
+        "65": 600,
+        "71": 6
+      },
+      "params": {}
+    },
+    {
+      "n": 61,
+      "kind": "drawn",
+      "rows": [
+        "     U--2--U--2--U--2--U--2--U--55-====-===--=====-===--==--=--=",
+        " #######-#####-#####-#####-#######=-==-=-=-==--==-=-=-==--==-==-",
+        " ######-B-###-B-###-B-###-B-######==--===-=====--===W==========-",
+        " ########chamber#of#horror########======================-------=",
+        " ##22222222222222222222222222##ó##=---=-=-=-==--==--=---========",
+        " ##22222222222222222222222222222##-===-=-=-=--==-=-=-=====-----=",
+        " ##22222222222222222222222########=-============-=-===----=====-",
+        " ##2222222222222222222222266\"0LL##-==-=-=-W-====-==---======---=",
+        " ####-############################=--=-=-===-===-========---====",
+        "      ##---##ãOOOOOOOOO33333333!##=========-====-====----===-===",
+        "########---##H####################==----====-====---========--ò",
+        "<F  22##111##ãã333333##3333333-[##=-====-==-============--======",
+        "FF  22##âââ##ãã333333##3333333--##-===-==-==------=====-==-=--==",
+        "    22##YYY##ãã333333##333333333##-==-=-==-=======-===-====-==-=",
+        " P  22##ááá##ã#########444444444##=--==-==W======-===-========-=",
+        "    22##111##        ##         ##=====-===------===-==---=-===-",
+        "    22##ààà######### ##   ##   ##=--==-============-=-===-=---=",
+        "    22##             ##   ##   ##-==W==-=====---===-==--=======",
+        "    22##   ~~~~~  ## ##   ##   ##=-==-==-===-===--==-===W=----=",
+        "    22##   ~~%~~  ## ##   ##   ##==-==-==---==-===--==-==-====-",
+        "    22##   ~~0~~  ## ##   ##   ##===-=-======-=--====-=-=====-=",
+        "    22##ô  ~~0~~  ## ##   ##   ##=-=-==-=-==-==-=--==-=-==-===-",
+        "      77ô  ~~     ##      ##   44-=-====-=--==|====--===--=---="
+      ],
+      "params": {
+        "fast": 1
+      }
+    },
+    {
+      "n": 62,
+      "kind": "scattered",
+      "counts": {
+        "5": 30,
+        "6": 2,
+        "7": 2,
+        "11": 5,
+        "32": 781,
+        "38": 650
+      },
+      "params": {
+        "hideMBlock": true
+      }
+    },
+    {
+      "n": 63,
+      "kind": "scattered",
+      "counts": {
+        "1": 100,
+        "5": 20,
+        "6": 4,
+        "9": 20,
+        "10": 20,
+        "11": 9,
+        "22": 90,
+        "25": 10,
+        "27": 90,
+        "28": 5,
+        "41": 1,
+        "66": 400
+      },
+      "params": {}
+    },
+    {
+      "n": 64,
+      "kind": "drawn",
+      "rows": [
+        "3333333333333333333333333333333333333333333333333333##C33à)))Fàó",
+        "4444444444444444444444444444444444444444444444444444##333à))F)àà",
+        "LL@@@@;@@@@@@@F@@;@@@@@@@@F@@@;@@@@@@@@@F@@@@@@@@@@@##333à))))F)",
+        "LL@;@@@@F@@;@@@@@@@@F@@;@@@@F@@@@@F@@@;@@@@@F@@@;@F@##333à)F))))",
+        "#########################@@@;@@@F@@;@@F@@@@F@@@F@@@@##333à)))F))",
+        "  æ        ááá      YY>##&@@@@F@;@@@F@@@F@@;@F@##333à)F))))",
+        "88~  ææ##-##3á      YYY#########################ññññ##333à))))F)",
+        "Mõ~  æ3## ##3á              DFD77777777777##6666#####àFFFFFF",
+        "Mõ~  æ3##S##3ááááááááááá P  #######77777777777##ããããâ33##Tàààààà",
+        "Mõ~  æ3##F##33333333333á   +##K##77777777777##ããããâââ####YYY##",
+        "Mõ~ææææ#######################(((##77777777777--ããããããããããâããããã",
+        "Mõ~    ä333333333WWWä  ää999#################################",
+        "Mõ~    ääääääääääääää  ##MMM##(((##33333333333333333333333333333",
+        "Mõ~                   ##MOM##(((##33333333333333333333333333333",
+        "Mõ~                #####OMO####33333333333333333333333333333",
+        "Mõ~               ää##K##MOM##(((##(((((((((((((((((((((((((((((",
+        "Mõ~             ää3##ä##OMO##((((((((((((((((((((((((((((((((((",
+        "Mõ~             ää33##-##MOM##(YY++YY((YYYYY+((+YYYY+(YYYYYYY(((",
+        "XX~            ää333##-##OMO##(YY+YY+((YY++YY((YY++YY(++++YY+(((",
+        "XX~ çççççç   ää3333####MOM##(YYYY++((YYYYY+((YY++YY(+++YY++(((",
+        "XX~ ç3333ç    ä3333C##-##OUO##(YYYY++((YY+YY+((YY++YY(++YY+++(((",
+        "XX~ ##################-#######(YY+YY+((YY++YY((YY++YY(+YY++++(((",
+        "X!~     ççççç          äää~H##(YY++YY((YY++YY((+YYYY+(YYYYYYY((U"
+      ],
+      "params": {
+        "fast": 1
+      }
+    },
+    {
+      "n": 65,
+      "kind": "scattered",
+      "counts": {
+        "4": 800,
+        "5": 40,
+        "6": 1,
+        "21": 20,
+        "43": 600,
+        "47": 5,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 1
+      },
+      "params": {}
+    },
+    {
+      "n": 66,
+      "kind": "drawn",
+      "rows": [
+        "--------------------#figurit¶s#revenge#ii#-----½-----!-------4U#",
+        " P  ¹666666666666---------------------K------+ö-9999999999999#-#",
+        "     66           -------½-----------³9999999#####º####5####-#2#",
+        "     66 +ô WWWWWWW ------------------------------------ñ##YYY#-#",
+        "   ; 668888888888888888888888888888888888888»------YY---##YYY#2#",
+        "000~ 66---------------------------õõõõõõõ---------------##YYY#-#",
+        "VVV~ 66-------------------------------------------------##YYY#B#",
+        "-<-~ 66-------------------------------------------0----##YYY#-#",
+        "-[-~ 66---------.U.-----------------.».---------#####³#-##YYY#2#",
+        "-|-~ 66----------------------------------------------³#Y##YYY#-#",
+        "-\"-~¹ --+++.+++.+++.+++.+++--------------------------³#º##KYò#2#",
+        "--~-7777777777777777777777777--###########----------³#-##-###-#",
+        "---~662222222222222222222222266-DDVVLLLVVDD 2              2    ",
+        "ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ",
+        "#diary·#day#six¸################################################",
+        "################################################################",
+        "#it¶s#becoming#more#and#more#difficult#to#surviveÃ##the#idea#of#",
+        "################################################################",
+        "#turning#back#now#hangs#heavy#on#your#thoughts´##how#much#can###",
+        "################################################################",
+        "#any#adventurer#take#before#adversity#wins´##but#your#will#and##",
+        "################################################################",
+        "#courage#guide#you#now·#and#they#refuse#to#let#you#give#up´´´###"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true
+      }
+    },
+    {
+      "n": 67,
+      "kind": "scattered",
+      "counts": {
+        "1": 300,
+        "6": 20,
+        "8": 9,
+        "11": 9,
+        "19": 400,
+        "20": 100,
+        "34": 6,
+        "41": 2,
+        "70": 8,
+        "71": 8,
+        "72": 8,
+        "73": 99,
+        "74": 20
+      },
+      "params": {}
+    },
+    {
+      "n": 68,
+      "kind": "drawn",
+      "rows": [
+        "----W---I------:--\"0|0[0<0--:----------------:------------------",
+        "¼YYYYYYYY------:--666666666½:----------½####-#LL-DDD------------",
+        "---------------:------------:------½########-#9999999³----------",
+        "---------------:---------------½############³########³##--------",
+        "---------------:--YYYYYYYYY-########C-;22;--]---------##--------",
+        "-:----------ò-----YYYYYYYYY-############################¹::::::;",
+        "-~³~-~------U-----YYYYYYYYY-##--³------------------------:------",
+        "-~³~-~------------YYYYKYYYY-##!##--------******0---------:------",
+        "-~³~9~------------öööööööö--##-##YYYY::::YYYYYYYYYYYYYYY-------K",
+        "-~³~~----------------------##K##------------------------------U",
+        "¼~-9-9-------------------------##VVVVVVVVVVVVVVVVVV##-----------",
+        "#########################piece#o¶#cakeÃ##############4444444####",
+        "-: P :-------------------:-»»»»»»--:----------------------------",
+        "-:   :-³############MMMMM#-X77777#-#--³88888#######0-----######º",
+        "-:   :-³-----------#MMMMM#-³:::::#I#--³--------0CC~------#ñ....-",
+        "-: W :-³-----------#MMMMM#-X-----#-#--³88888##5#########Y######-",
+        "-:   :-³-----------#MMMMM#-³-----#F#--³-----##K##---------------",
+        "-: W :-³-----------#MMºMM#-X-]+++#ô#--³-----##½##               ",
+        "-:   :---õ---------#::::;#-³-YYYY#;#--³------                   ",
+        "T     -7777777777³    2       -       2     -      2    -     2 ",
+        ";;;;;;;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;XXXXXXXX~~~~~~~XXXX",
+        "                                                        ¹       ",
+        "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV#-#VVVVVV"
+      ],
+      "params": {
+        "fast": 234,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true
+      }
+    },
+    {
+      "n": 69,
+      "kind": "scattered",
+      "counts": {
+        "3": 400,
+        "6": 3,
+        "10": 20,
+        "15": 50,
+        "21": 2,
+        "25": 25,
+        "41": 1,
+        "69": 2,
+        "70": 5,
+        "71": 5,
+        "72": 5,
+        "73": 70
+      },
+      "params": {}
+    },
+    {
+      "n": 70,
+      "kind": "drawn",
+      "rows": [
+        "----------àHT66-;K-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)-- 66111ñ111--",
+        "-66666666666666-66))))))))))))))))))))))))))))))))66 6611111116-",
+        "----------66----662222222222222222222222222222222266 6611111116",
+        "66ààààà66-66-66-66((((((((((((((((((((((((((((((((66 66666-6666-",
+        "661111166-6666--(22222222222222222222222222222222--       YY®6<",
+        "666666666-66-666666666666666666666666666666666666666 66666-66666",
+        "------------66666>;S---622222222222222222222222662YWY2666-66666",
+        "I6666666666666666666666-6@@@@@@@@@@@@@@@@@@@@@@@662YPY266W6666//",
+        "O:OO:::O:OO:66--66K@@@@                      662YWY26W666///\\",
+        ":O::O:O:O::O66-LLL-666666@@@@@@@@@@@@@@@@@@@@   6666 666666//\\\"\\",
+        ":::::O::::O:66DDDDD6666662222222222222222222@        66666//\\\\\\\\",
+        ":OOO::::O::O66DDDDD6666666666666666666666666666666666666///\\\\\\\\\\",
+        "O:::O:OO:O:O664444466666666666666666666666666666---6666///\\\\\\U\\\\",
+        ":O[66O66::O:6666666-1-1-1-1-1-1-1-1-1-1-1-1-1-1--U-666///\\\\\\\\\\\\\\",
+        "RRRR6-6RRRRRRR6666666666666666666666666666666666---66////\\\\\\\\\\\\\\",
+        "RRRR6-6RRRRRRRRRRRRRRRRRRRRRRRRRQX.X.X.X.X.X.X.X6666////\\\\\\\\\\\\\\\\",
+        "?]]66-66]]RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR66-66\\",
+        "-------------------$$$$$$$$RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR6-6RR",
+        "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$RRRRR6-6RR",
+        "WWWWWWWWWW$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$66-66+",
+        "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+        "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+        "KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM|MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"
+      ],
+      "params": {
+        "fast": 234
+      }
+    },
+    {
+      "n": 71,
+      "kind": "scattered",
+      "counts": {
+        "1": 150,
+        "2": 150,
+        "3": 150,
+        "4": 900,
+        "5": 20,
+        "6": 6,
+        "7": 3,
+        "9": 20,
+        "11": 5,
+        "42": 1,
+        "70": 1,
+        "71": 1,
+        "72": 1,
+        "73": 50
+      },
+      "params": {},
+      "renderOverrides": [
+        {
+          "tiles": [
+            4
+          ],
+          "source": "if Level <> 71 then begin col(6,7);write(Block)end;"
+        }
+      ],
+      "warnings": [
+        "chunk 1 is 85 chars, expected 84"
+      ]
+    },
+    {
+      "n": 72,
+      "kind": "drawn",
+      "rows": [
+        "----------------------?##2--------;;TTTT#-½-------¼------»------",
+        "³~~~~~~~~~~~~~~~~~~~~~-P##º##############----------------------³",
+        "³0-¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯-K# +##--:-ö;-&--------------------------³",
+        "³###¹################ ##----#mystery#ramp#----I----------------³",
+        "³¹##-82-2-2-2-2-2-8Q#  ##2-------------:-------|----[-----I---³",
+        "³###-################  T##-############-:---\"--------I---------³",
+        "³2##---Y-Y-Y-Y-Y-Y-C# +##---D³³³³³--.##:-----------------<----³",
+        "³###-################ ##---##VVVVV##-##-:----------------------³",
+        "³2##-Fâ;;***++++++â2#  ##2-##-----##*##::-½-------¼------»-----³",
+        "³###-################  T##-##::::;##*##------------------------³",
+        "³2##-0-------C# +##--##-!--##*##VVVVVVVVVVVVVVVVVVVVVV##³",
+        "³###-################ ##---#######-#-##########################³",
+        "³2##----2----2-----#  ##2-::CWWWW:------7---D.##.------------³",
+        "³#################³##  T##-::;:::##³###########-##-#######99999³",
+        "³2##]-------;------# +##--:-------³-##WWW------##-##88---#####³",
+        "³###-################ ##---:-³³³³³³³-##########-##-###########³",
+        "³2##11111111111111-C#  ##2---¯-----Y-:2222222222##K##-------88#³",
+        "³#########Y##########  T##----------#X###########X###########³",
+        "³2##-------## 8 2   -+##--::::-:::--#-----`--LL##---K---7----#³",
+        "³###-#########  ~00000##-------+-----#############---##########³",
+        "³2##ñ           ~      ##2-------------------------------³",
+        "³###            ~      T##X###########0XXXXXXXXXXXXXXX---------³",
+        "C2-2-2-2-2-2-2-2~ YYY-®44--àààààMàMº##¯-2222222222222XWWWWWWWWWW"
+      ],
+      "params": {
+        "fast": 234,
+        "magicEWalls": true,
+        "gravRate": 0,
+        "gravOn": true,
+        "sideways": true
+      }
+    },
+    {
+      "n": 73,
+      "kind": "scattered",
+      "counts": {
+        "3": 420,
+        "6": 5,
+        "10": 30,
+        "16": 20,
+        "21": 1,
+        "27": 200,
+        "33": 90,
+        "37": 90,
+        "39": 90,
+        "41": 1,
+        "48": 4,
+        "49": 4,
+        "50": 4,
+        "51": 4,
+        "64": 250,
+        "67": 90,
+        "68": 20,
+        "70": 9,
+        "71": 9,
+        "72": 9,
+        "73": 50
+      },
+      "params": {}
+    },
+    {
+      "n": 74,
+      "kind": "drawn",
+      "rows": [
+        "    0             #heat#waveÃ#    @òRRRRR22222222222222222244`L",
+        ";;===00  99999F                   @@@RRRRR2222222222222222244::",
+        "$===00   99ö99.             F  .      RRRRRR22222222222222244444",
+        "W====00  99999        F .            RRRRR2222222222222222222",
+        "WW====0            .    77777            RRRRRR22222222222222222",
+        "WWW===00        F       77ô77.    F     F RRRRRR2222222222222222",
+        "¯$====0   F             77777            .  RRRRRR22222222222222",
+        "¯=====00  $$$$$$$$$$$ F      F@@@@@@@@@      RRRRRR2222222222222",
+        "====000   $222222222$         @2222222@   F    RRRRR222222222222",
+        "==000     ##############################        RRRRRR2222222222",
+        "00   Z##2-U-<##2-U-[##2-U-|##2-U-\"##Z .   P   RRRRRR22222222",
+        "#############################################àà    RRRRRRR222222",
+        "K88------##-----88K##K88-----##-----88K##2à F    RRRRRRR2222",
+        "#########-##-##################-##-##########2à   .    RRRRRRR22",
+        "Q002222222222222222222222222222222222222222##2à      F   RRRRRRR",
+        "0002222222222222222222222222222222222222222##2à            RRRRR",
+        "0002222222222222222222222222222222222222222##àà  F       F   RRR",
+        "666666666666666666666666666666666666666666688        .     .    ",
+        ")))))))))))))))))))))))))))))))))))))))))))##5#######áá      :  ",
+        "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM##-:--:ó62á    :::  ",
+        "(((((((((((((((((((((((((((((((((((((((((((##-:-:-:à#2á F ::>:: ",
+        "####-########################################-:-:-:-#2á    :;:  ",
+        "¯00---22222222222222222-<[|\"D--D--D--ñõ!##--:--#2á    :   U"
+      ],
+      "params": {
+        "fast": 234,
+        "hideMBlock": true
+      }
+    },
+    {
+      "n": 75,
+      "kind": "drawn",
+      "rows": [
+        "ñö22222229       &#the#sacred#chamber#of#kroz#&2      82222222õò",
+        "öö22222999      F       $®$$$$$$$$$$$¯$ 2    .    F   88822222õõ",
+        "22222999     2 .      $$$333333333$$$             2  88822222",
+        "222999      ###        $$3=========3$$   ]    ###        888222",
+        "2999   .     #K#       $$3==úúúùúúú==3$$       #ó# .        8882",
+        "99   F  ]    #K#  2   $$3==úúùVVVùúú==3$$   2  #2#        2  88",
+        "RRRRRRR      #0#      $3==úùïúVAVúïùú==3$      #2#       RRRRRRR",
+        "22222RR.     #0# .    $3==úùùúVVVúùùú==3$ .    #2#  2   .RR22222",
+        "22222RR  2   #0#      $$3==úúùú6úùúú==3$$      #2#       RR22222",
+        "22222RR      #D#   2   $$3==úúù&ùúú==3$$      #D#     2 RR22222",
+        "22222RR                 $$3==úú0úú==3$$                  RR22222",
+        "22222RR     2        ]   $3==úúGúú==3$        .   2   . RR22222",
+        "22222RR  .          .   $$3==úDú==3$$                ]  RR22222",
+        "22222RR    F              $$3=====3$$   2      2        RR22222",
+        "RRRRRRR 2         2        $$33333$$       ]      F     2RRRRRRR",
+        "444444444444444            $$$$$$$   .      .  H444444444444444",
+        "77777777777777###    .        P           2   ###YYYYYYYYYYYYYY",
+        "77777777777777#U#       2                      #U#YYXXXXXXXXXXXX",
+        "77777777777777#-#  2       .   T      2        #0#YYXXYYYYYYYYYY",
+        "77777777777777#<#   ]           2           2#0#YYXXYYOOOOOOOO",
+        "77777777777777#[#        2  5555555 N     .    #0#YYXXYYOOYYYYYY",
+        "77777777777777#|#          55DDDDD55 2      F  #0#YYXXYYOOYYXXXX",
+        "K777777777777C#\"#E  2     555D]!]D555     2    40#CYXXYYOOYYXX]K"
+      ],
+      "params": {
+        "fast": 234,
+        "evapoRate": 22,
+        "magicEWalls": true,
+        "hideCreate": true
+      }
+    }
+  ]
+}

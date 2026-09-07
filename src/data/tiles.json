@@ -1,0 +1,2538 @@
+{
+  "meta": {
+    "game": "The Lost Adventures of Kroz",
+    "source": "source/LOSTKROZ/MASTER",
+    "totObjects": 83,
+    "note": "Convert_Format falls through to PF[x,y] := ord(char) for characters not listed here, so a layout may reference tile ids outside this table."
+  },
+  "fallback": "{LETTERS} else begin col(15,0);bak(6,7); write(upcase(chr(PF[XLoop,YLoop])));bak(0,0); end; end; end;",
+  "monsters": [
+    {
+      "tile": 1,
+      "variable": "Slow",
+      "default": 142,
+      "frames": [
+        142,
+        65
+      ]
+    },
+    {
+      "tile": 2,
+      "variable": "Medium",
+      "default": 153,
+      "frames": [
+        153,
+        148
+      ]
+    },
+    {
+      "tile": 3,
+      "variable": "Fast",
+      "default": 234,
+      "frames": [
+        234
+      ]
+    }
+  ],
+  "mapChars": [
+    {
+      "char": " ",
+      "byte": 32,
+      "tile": 0
+    },
+    {
+      "char": "!",
+      "byte": 33,
+      "tile": 42
+    },
+    {
+      "char": "\"",
+      "byte": 34,
+      "tile": 51
+    },
+    {
+      "char": "#",
+      "byte": 35,
+      "tile": 14
+    },
+    {
+      "char": "$",
+      "byte": 36,
+      "tile": 67
+    },
+    {
+      "char": "%",
+      "byte": 37,
+      "tile": 34
+    },
+    {
+      "char": "&",
+      "byte": 38,
+      "tile": 41
+    },
+    {
+      "char": "(",
+      "byte": 40,
+      "tile": 37
+    },
+    {
+      "char": ")",
+      "byte": 41,
+      "tile": 39
+    },
+    {
+      "char": "*",
+      "byte": 42,
+      "tile": 27
+    },
+    {
+      "char": "+",
+      "byte": 43,
+      "tile": 9
+    },
+    {
+      "char": "-",
+      "byte": 45,
+      "tile": 32
+    },
+    {
+      "char": ".",
+      "byte": 46,
+      "tile": 16
+    },
+    {
+      "char": "/",
+      "byte": 47,
+      "tile": 19
+    },
+    {
+      "char": "0",
+      "byte": 48,
+      "tile": 65
+    },
+    {
+      "char": "1",
+      "byte": 49,
+      "tile": 1
+    },
+    {
+      "char": "2",
+      "byte": 50,
+      "tile": 2
+    },
+    {
+      "char": "3",
+      "byte": 51,
+      "tile": 3
+    },
+    {
+      "char": "4",
+      "byte": 52,
+      "tile": 52
+    },
+    {
+      "char": "5",
+      "byte": 53,
+      "tile": 53
+    },
+    {
+      "char": "6",
+      "byte": 54,
+      "tile": 54
+    },
+    {
+      "char": "7",
+      "byte": 55,
+      "tile": 55
+    },
+    {
+      "char": "8",
+      "byte": 56,
+      "tile": 56
+    },
+    {
+      "char": "9",
+      "byte": 57,
+      "tile": 57
+    },
+    {
+      "char": ":",
+      "byte": 58,
+      "tile": 30
+    },
+    {
+      "char": ";",
+      "byte": 59,
+      "tile": 29
+    },
+    {
+      "char": "<",
+      "byte": 60,
+      "tile": 48
+    },
+    {
+      "char": "=",
+      "byte": 61,
+      "tile": 23
+    },
+    {
+      "char": ">",
+      "byte": 62,
+      "tile": 46
+    },
+    {
+      "char": "?",
+      "byte": 63,
+      "tile": 45
+    },
+    {
+      "char": "@",
+      "byte": 64,
+      "tile": 33
+    },
+    {
+      "char": "A",
+      "byte": 65,
+      "tile": 24
+    },
+    {
+      "char": "B",
+      "byte": 66,
+      "tile": 21
+    },
+    {
+      "char": "C",
+      "byte": 67,
+      "tile": 7
+    },
+    {
+      "char": "D",
+      "byte": 68,
+      "tile": 13
+    },
+    {
+      "char": "E",
+      "byte": 69,
+      "tile": 28
+    },
+    {
+      "char": "F",
+      "byte": 70,
+      "tile": 15
+    },
+    {
+      "char": "G",
+      "byte": 71,
+      "tile": 36
+    },
+    {
+      "char": "H",
+      "byte": 72,
+      "tile": 44
+    },
+    {
+      "char": "I",
+      "byte": 73,
+      "tile": 10
+    },
+    {
+      "char": "K",
+      "byte": 75,
+      "tile": 12
+    },
+    {
+      "char": "L",
+      "byte": 76,
+      "tile": 6
+    },
+    {
+      "char": "M",
+      "byte": 77,
+      "tile": 38
+    },
+    {
+      "char": "N",
+      "byte": 78,
+      "tile": 47
+    },
+    {
+      "char": "O",
+      "byte": 79,
+      "tile": 43
+    },
+    {
+      "char": "P",
+      "byte": 80,
+      "tile": 40
+    },
+    {
+      "char": "Q",
+      "byte": 81,
+      "tile": 18
+    },
+    {
+      "char": "R",
+      "byte": 82,
+      "tile": 17
+    },
+    {
+      "char": "S",
+      "byte": 83,
+      "tile": 8
+    },
+    {
+      "char": "T",
+      "byte": 84,
+      "tile": 11
+    },
+    {
+      "char": "U",
+      "byte": 85,
+      "tile": 25
+    },
+    {
+      "char": "V",
+      "byte": 86,
+      "tile": 22
+    },
+    {
+      "char": "W",
+      "byte": 87,
+      "tile": 5
+    },
+    {
+      "char": "X",
+      "byte": 88,
+      "tile": 4
+    },
+    {
+      "char": "Y",
+      "byte": 89,
+      "tile": 64
+    },
+    {
+      "char": "Z",
+      "byte": 90,
+      "tile": 26
+    },
+    {
+      "char": "[",
+      "byte": 91,
+      "tile": 49
+    },
+    {
+      "char": "\\",
+      "byte": 92,
+      "tile": 20
+    },
+    {
+      "char": "]",
+      "byte": 93,
+      "tile": 35
+    },
+    {
+      "char": "`",
+      "byte": 96,
+      "tile": 31
+    },
+    {
+      "char": "|",
+      "byte": 124,
+      "tile": 50
+    },
+    {
+      "char": "~",
+      "byte": 126,
+      "tile": 66
+    },
+    {
+      "char": "",
+      "byte": 131,
+      "tile": 81
+    },
+    {
+      "char": "",
+      "byte": 145,
+      "tile": 68
+    },
+    {
+      "char": "",
+      "byte": 146,
+      "tile": 69
+    },
+    {
+      "char": "",
+      "byte": 147,
+      "tile": 70
+    },
+    {
+      "char": "",
+      "byte": 148,
+      "tile": 71
+    },
+    {
+      "char": "",
+      "byte": 149,
+      "tile": 72
+    },
+    {
+      "char": "",
+      "byte": 150,
+      "tile": 73
+    },
+    {
+      "char": "",
+      "byte": 151,
+      "tile": 74
+    },
+    {
+      "char": "®",
+      "byte": 174,
+      "tile": 83
+    },
+    {
+      "char": "¯",
+      "byte": 175,
+      "tile": 82
+    },
+    {
+      "char": "³",
+      "byte": 179,
+      "tile": 75
+    },
+    {
+      "char": "´",
+      "byte": 180,
+      "tile": 180
+    },
+    {
+      "char": "µ",
+      "byte": 181,
+      "tile": 181
+    },
+    {
+      "char": "¶",
+      "byte": 182,
+      "tile": 182
+    },
+    {
+      "char": "·",
+      "byte": 183,
+      "tile": 183
+    },
+    {
+      "char": "¸",
+      "byte": 184,
+      "tile": 184
+    },
+    {
+      "char": "¹",
+      "byte": 185,
+      "tile": 76
+    },
+    {
+      "char": "º",
+      "byte": 186,
+      "tile": 77
+    },
+    {
+      "char": "»",
+      "byte": 187,
+      "tile": 78
+    },
+    {
+      "char": "¼",
+      "byte": 188,
+      "tile": 79
+    },
+    {
+      "char": "½",
+      "byte": 189,
+      "tile": 80
+    },
+    {
+      "char": "à",
+      "byte": 224,
+      "tile": 224
+    },
+    {
+      "char": "á",
+      "byte": 225,
+      "tile": 225
+    },
+    {
+      "char": "â",
+      "byte": 226,
+      "tile": 226
+    },
+    {
+      "char": "ã",
+      "byte": 227,
+      "tile": 227
+    },
+    {
+      "char": "ä",
+      "byte": 228,
+      "tile": 228
+    },
+    {
+      "char": "å",
+      "byte": 229,
+      "tile": 229
+    },
+    {
+      "char": "æ",
+      "byte": 230,
+      "tile": 230
+    },
+    {
+      "char": "ç",
+      "byte": 231,
+      "tile": 231
+    },
+    {
+      "char": "ñ",
+      "byte": 241,
+      "tile": 58
+    },
+    {
+      "char": "ò",
+      "byte": 242,
+      "tile": 59
+    },
+    {
+      "char": "ó",
+      "byte": 243,
+      "tile": 60
+    },
+    {
+      "char": "ô",
+      "byte": 244,
+      "tile": 61
+    },
+    {
+      "char": "õ",
+      "byte": 245,
+      "tile": 62
+    },
+    {
+      "char": "ö",
+      "byte": 246,
+      "tile": 63
+    },
+    {
+      "char": "ü",
+      "byte": 252,
+      "tile": 252
+    }
+  ],
+  "tiles": [
+    {
+      "id": 0,
+      "name": "Null",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        " "
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              "CF1",
+              "CF2"
+            ],
+            "bak": [
+              "BF1",
+              "BF2"
+            ],
+            "write": "Tile"
+          }
+        ],
+        "source": "begin col(CF1,CF2);bak(BF1,BF2);write(Tile);bak(0,0)end;"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Unnamed1",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "1"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              12,
+              7
+            ],
+            "bak": null,
+            "write": "Slow"
+          }
+        ],
+        "source": "begin col(12,7);write(Slow)end;"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Unnamed2",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "2"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              10,
+              7
+            ],
+            "bak": null,
+            "write": "Medium"
+          }
+        ],
+        "source": "begin col(10,7);write(Medium)end;"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Unnamed3",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "3"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              9,
+              7
+            ],
+            "bak": null,
+            "write": "Fast"
+          }
+        ],
+        "source": "begin col(9,7);write(Fast)end;"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Block",
+      "cp437": 178,
+      "visible": true,
+      "mapChars": [
+        "X"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              6,
+              7
+            ],
+            "bak": null,
+            "write": "Block"
+          }
+        ],
+        "source": "if Level <> 71 then begin col(6,7);write(Block)end;"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Whip",
+      "cp437": 244,
+      "visible": true,
+      "mapChars": [
+        "W"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Whip"
+          }
+        ],
+        "source": "begin col(15,7);write(Whip)end;"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Stairs",
+      "cp437": 240,
+      "visible": true,
+      "mapChars": [
+        "L"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              16,
+              16
+            ],
+            "bak": [
+              7,
+              7
+            ],
+            "write": "Stairs"
+          }
+        ],
+        "source": "if not HideStairs then begin bak(7,7);col(16,16);write(Stairs);bak(0,0)end;"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Chest",
+      "cp437": 67,
+      "visible": true,
+      "mapChars": [
+        "C"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Chance"
+          },
+          {
+            "col": [
+              14,
+              7
+            ],
+            "bak": [
+              4,
+              0
+            ],
+            "write": "Chest"
+          }
+        ],
+        "source": "if random(20)=0 then begin col(15,7);write(Chance)end else begin col(14,7);bak(4,0);write(Chest);bak(0,0)end;"
+      }
+    },
+    {
+      "id": 8,
+      "name": "SlowTime",
+      "cp437": 232,
+      "visible": true,
+      "mapChars": [
+        "S"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Chance"
+          },
+          {
+            "col": [
+              11,
+              7
+            ],
+            "bak": null,
+            "write": "SlowTime"
+          }
+        ],
+        "source": "if random(35)=0 then begin col(15,7);write(Chance)end else begin col(11,7);write(SlowTime)end;"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Gem",
+      "cp437": 4,
+      "visible": true,
+      "mapChars": [
+        "+"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              "GemColor",
+              7
+            ],
+            "bak": null,
+            "write": "Gem"
+          }
+        ],
+        "source": "if not HideGems then begin col(GemColor,7);write(Gem)end;"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Invisible",
+      "cp437": 173,
+      "visible": true,
+      "mapChars": [
+        "I"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              2,
+              7
+            ],
+            "bak": null,
+            "write": "Invisible"
+          }
+        ],
+        "source": "begin col(2,7);write(Invisible)end;"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Teleport",
+      "cp437": 24,
+      "visible": true,
+      "mapChars": [
+        "T"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              13,
+              7
+            ],
+            "bak": null,
+            "write": "Teleport"
+          }
+        ],
+        "source": "begin col(13,7);write(Teleport)end;"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Key",
+      "cp437": 140,
+      "visible": true,
+      "mapChars": [
+        "K"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Chance"
+          },
+          {
+            "col": [
+              12,
+              15
+            ],
+            "bak": null,
+            "write": "Key"
+          }
+        ],
+        "source": "if random(25)=0 then begin col(15,7);write(Chance)end else begin col(12,15);write(Key)end;"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Door",
+      "cp437": 236,
+      "visible": true,
+      "mapChars": [
+        "D"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              3,
+              0
+            ],
+            "bak": [
+              5,
+              7
+            ],
+            "write": "Door"
+          }
+        ],
+        "source": "begin bak(5,7);col(3,0);write(Door);bak(0,0)end;"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Wall",
+      "cp437": 219,
+      "visible": true,
+      "mapChars": [
+        "#"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              6,
+              7
+            ],
+            "bak": null,
+            "write": "Wall"
+          }
+        ],
+        "source": "begin col(6,7);write(Wall)end;"
+      }
+    },
+    {
+      "id": 15,
+      "name": "SpeedTime",
+      "cp437": 233,
+      "visible": true,
+      "mapChars": [
+        "F"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Chance"
+          },
+          {
+            "col": [
+              11,
+              7
+            ],
+            "bak": null,
+            "write": "SpeedTime"
+          }
+        ],
+        "source": "if random(10)=0 then begin col(15,7);write(Chance)end else begin col(11,7);write(SpeedTime)end;"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Trap",
+      "cp437": 249,
+      "visible": true,
+      "mapChars": [
+        "."
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "Trap"
+          }
+        ],
+        "source": "if not HideTrap then begin col(7,7);write(Trap); end;"
+      }
+    },
+    {
+      "id": 17,
+      "name": "River",
+      "cp437": 247,
+      "visible": true,
+      "mapChars": [
+        "R"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              12,
+              16
+            ],
+            "bak": [
+              4,
+              7
+            ],
+            "write": "Lava"
+          },
+          {
+            "col": [
+              9,
+              0
+            ],
+            "bak": [
+              1,
+              7
+            ],
+            "write": "River"
+          }
+        ],
+        "source": "if level=56 then begin col(12,16);bak(4,7);write(Lava);bak(0,0)end else begin col(9,0);bak(1,7);write(River);bak(0,0)end;"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Power",
+      "cp437": 9,
+      "visible": true,
+      "mapChars": [
+        "Q"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Chance"
+          },
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Power"
+          }
+        ],
+        "source": "if random(15)=0 then begin col(15,7);write(Chance)end else begin col(15,7);write(Power)end;"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Forest",
+      "cp437": 219,
+      "visible": true,
+      "mapChars": [
+        "/"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              2,
+              7
+            ],
+            "bak": null,
+            "write": "Forest"
+          }
+        ],
+        "source": "begin col(2,7);write(Forest);bak(0,0)end;"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Tree",
+      "cp437": 5,
+      "visible": true,
+      "mapChars": [
+        "\\"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              6,
+              0
+            ],
+            "bak": [
+              2,
+              7
+            ],
+            "write": "Tree"
+          }
+        ],
+        "source": "begin col(6,0);bak(2,7);write(Tree);bak(0,0)end;"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Bomb",
+      "cp437": 157,
+      "visible": true,
+      "mapChars": [
+        "B"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Chance"
+          },
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Bomb"
+          }
+        ],
+        "source": "if random(40)=0 then begin col(15,7);write(Chance)end else begin col(15,7);write(Bomb)end;"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Lava",
+      "cp437": 178,
+      "visible": true,
+      "mapChars": [
+        "V"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              12,
+              16
+            ],
+            "bak": [
+              4,
+              7
+            ],
+            "write": "Lava"
+          }
+        ],
+        "source": "begin col(12,16);bak(4,7);write(Lava);bak(0,0)end;"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Pit",
+      "cp437": 176,
+      "visible": true,
+      "mapChars": [
+        "="
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "Pit"
+          }
+        ],
+        "source": "begin col(7,7);write(Pit)end;"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Tome",
+      "cp437": 254,
+      "visible": true,
+      "mapChars": [
+        "A"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              31,
+              31
+            ],
+            "bak": [
+              5,
+              0
+            ],
+            "write": "Tome"
+          }
+        ],
+        "source": "begin col(31,31);bak(5,0);write(Tome);bak(0,0);end;"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Tunnel",
+      "cp437": 239,
+      "visible": true,
+      "mapChars": [
+        "U"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Tunnel"
+          }
+        ],
+        "source": "begin col(15,7);write(Tunnel)end;"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Freeze",
+      "cp437": 159,
+      "visible": true,
+      "mapChars": [
+        "Z"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              11,
+              7
+            ],
+            "bak": null,
+            "write": "Freeze"
+          }
+        ],
+        "source": "begin col(11,7);write(Freeze)end;"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Nugget",
+      "cp437": 15,
+      "visible": true,
+      "mapChars": [
+        "*"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              "ArtColor",
+              7
+            ],
+            "bak": null,
+            "write": "Nugget"
+          }
+        ],
+        "source": "begin col(ArtColor,7);write(Nugget)end;"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Quake",
+      "cp437": 0,
+      "visible": true,
+      "mapChars": [
+        "E"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Chance"
+          }
+        ],
+        "source": "if random(15)=0 then begin col(15,7);write(Chance)end;"
+      }
+    },
+    {
+      "id": 29,
+      "name": "IBlock",
+      "cp437": 30,
+      "visible": false,
+      "mapChars": [
+        ";"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 30,
+      "name": "IWall",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        ":"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 31,
+      "name": "IDoor",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "`"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Stop",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "-"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Trap2",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "@"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Zap",
+      "cp437": 30,
+      "visible": true,
+      "mapChars": [
+        "%"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              12,
+              7
+            ],
+            "bak": null,
+            "write": "Zap"
+          }
+        ],
+        "source": "begin col(12,7);write(Zap)end;"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Create",
+      "cp437": 31,
+      "visible": true,
+      "mapChars": [
+        "]"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Chance"
+          }
+        ],
+        "source": "if not HideCreate then begin col(15,7);write(Chance)end;"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Generator",
+      "cp437": 6,
+      "visible": true,
+      "mapChars": [
+        "G"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              30,
+              31
+            ],
+            "bak": null,
+            "write": "Generator"
+          }
+        ],
+        "source": "begin col(30,31);write(Generator)end;"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Trap3",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "("
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 38,
+      "name": "MBlock",
+      "cp437": 178,
+      "visible": true,
+      "mapChars": [
+        "M"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              6,
+              7
+            ],
+            "bak": null,
+            "write": "MBlock"
+          }
+        ],
+        "source": "if not hideMBlock then begin col(6,7);write(MBlock)end;"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Trap4",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        ")"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Player",
+      "cp437": 2,
+      "visible": true,
+      "mapChars": [
+        "P"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              16,
+              16
+            ],
+            "bak": [
+              7,
+              7
+            ],
+            "write": "Stairs"
+          }
+        ],
+        "source": "begin bak(7,7);col(16,16);write(Stairs);bak(0,0)end;"
+      }
+    },
+    {
+      "id": 41,
+      "name": "ShowGems",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "&"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Tablet",
+      "cp437": 254,
+      "visible": true,
+      "mapChars": [
+        "!"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              9,
+              7
+            ],
+            "bak": null,
+            "write": "Tablet"
+          }
+        ],
+        "source": "begin col(9,7);write(Tablet)end;"
+      }
+    },
+    {
+      "id": 43,
+      "name": "ZBlock",
+      "cp437": 178,
+      "visible": true,
+      "mapChars": [
+        "O"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              6,
+              7
+            ],
+            "bak": null,
+            "write": "ZBlock"
+          }
+        ],
+        "source": "begin col(6,7);write(ZBlock)end;"
+      }
+    },
+    {
+      "id": 44,
+      "name": "BlockSpell",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "H"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Chance",
+      "cp437": 63,
+      "visible": true,
+      "mapChars": [
+        "?"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Chance"
+          }
+        ],
+        "source": "begin col(15,7);write(Chance)end;"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Statue",
+      "cp437": 1,
+      "visible": true,
+      "mapChars": [
+        ">"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              31,
+              23
+            ],
+            "bak": null,
+            "write": "Statue"
+          }
+        ],
+        "source": "begin col(31,23);write(Statue)end;"
+      }
+    },
+    {
+      "id": 47,
+      "name": "WallVanish",
+      "cp437": 0,
+      "visible": true,
+      "mapChars": [
+        "N"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              7
+            ],
+            "bak": null,
+            "write": "Chance"
+          }
+        ],
+        "source": "if random(20)=0 then begin col(15,7);write(Chance)end else begin end;"
+      }
+    },
+    {
+      "id": 48,
+      "name": "K",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "<"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              14,
+              15
+            ],
+            "bak": null,
+            "write": "K"
+          }
+        ],
+        "source": "begin col(14,15);write('K')end;"
+      }
+    },
+    {
+      "id": 49,
+      "name": "R",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "["
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              14,
+              15
+            ],
+            "bak": null,
+            "write": "R"
+          }
+        ],
+        "source": "begin col(14,15);write('R')end;"
+      }
+    },
+    {
+      "id": 50,
+      "name": "O",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "|"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              14,
+              15
+            ],
+            "bak": null,
+            "write": "O"
+          }
+        ],
+        "source": "begin col(14,15);write('O')end;"
+      }
+    },
+    {
+      "id": 51,
+      "name": "Z",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "\""
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              14,
+              15
+            ],
+            "bak": null,
+            "write": "Z"
+          }
+        ],
+        "source": "begin col(14,15);write('Z')end;"
+      }
+    },
+    {
+      "id": 52,
+      "name": "OWall1",
+      "cp437": 219,
+      "visible": true,
+      "mapChars": [
+        "4"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              6,
+              7
+            ],
+            "bak": null,
+            "write": "Wall"
+          }
+        ],
+        "source": "begin col(6,7);write(Wall)end;"
+      }
+    },
+    {
+      "id": 53,
+      "name": "OWall2",
+      "cp437": 219,
+      "visible": true,
+      "mapChars": [
+        "5"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              6,
+              7
+            ],
+            "bak": null,
+            "write": "Wall"
+          }
+        ],
+        "source": "begin col(6,7);write(Wall)end;"
+      }
+    },
+    {
+      "id": 54,
+      "name": "OWall3",
+      "cp437": 219,
+      "visible": true,
+      "mapChars": [
+        "6"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "Wall"
+          }
+        ],
+        "source": "begin col(7,7);write(Wall)end;"
+      }
+    },
+    {
+      "id": 55,
+      "name": "CWall1",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "7"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 56,
+      "name": "CWall2",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "8"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 57,
+      "name": "CWall3",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "9"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 58,
+      "name": "OSpell1",
+      "cp437": 127,
+      "visible": true,
+      "mapChars": [
+        "ñ"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              11,
+              7
+            ],
+            "bak": null,
+            "write": "OSpell1"
+          }
+        ],
+        "source": "if not HideOpenWall then begin col(11,7);write(OSpell1)end;"
+      }
+    },
+    {
+      "id": 59,
+      "name": "OSpell2",
+      "cp437": 127,
+      "visible": true,
+      "mapChars": [
+        "ò"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              11,
+              7
+            ],
+            "bak": null,
+            "write": "OSpell1"
+          }
+        ],
+        "source": "if not HideOpenWall then begin col(11,7);write(OSpell1)end;"
+      }
+    },
+    {
+      "id": 60,
+      "name": "OSpell3",
+      "cp437": 127,
+      "visible": true,
+      "mapChars": [
+        "ó"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              11,
+              7
+            ],
+            "bak": null,
+            "write": "OSpell1"
+          }
+        ],
+        "source": "if not HideOpenWall then begin col(11,7);write(OSpell1)end;"
+      }
+    },
+    {
+      "id": 61,
+      "name": "CSpell1",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "ô"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 62,
+      "name": "CSpell2",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "õ"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 63,
+      "name": "CSpell3",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "ö"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 64,
+      "name": "GBlock",
+      "cp437": 178,
+      "visible": true,
+      "mapChars": [
+        "Y"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "GBlock"
+          }
+        ],
+        "source": "begin col(7,7);write(GBlock)end;"
+      }
+    },
+    {
+      "id": 65,
+      "name": "Rock",
+      "cp437": 79,
+      "visible": true,
+      "mapChars": [
+        "0"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "Rock"
+          }
+        ],
+        "source": "if not HideRock then begin col(7,7);write(Rock)end;"
+      }
+    },
+    {
+      "id": 66,
+      "name": "EWall",
+      "cp437": 88,
+      "visible": true,
+      "mapChars": [
+        "~"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              12,
+              0
+            ],
+            "bak": [
+              4,
+              7
+            ],
+            "write": "EWall"
+          }
+        ],
+        "source": "begin col(12,0);bak(4,7);write(EWall);bak(0,0)end;"
+      }
+    },
+    {
+      "id": 67,
+      "name": "Trap5",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "$"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 68,
+      "name": "TBlock",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        ""
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 69,
+      "name": "TRock",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        ""
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 70,
+      "name": "TGem",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        ""
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 71,
+      "name": "TBlind",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        ""
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 72,
+      "name": "TWhip",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        ""
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 73,
+      "name": "TGold",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        ""
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 74,
+      "name": "TTree",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        ""
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 75,
+      "name": "Rope",
+      "cp437": 179,
+      "visible": true,
+      "mapChars": [
+        "³"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "Rope"
+          }
+        ],
+        "source": "begin col(7,7);write(Rope)end;"
+      }
+    },
+    {
+      "id": 76,
+      "name": "DropRope",
+      "cp437": 25,
+      "visible": true,
+      "mapChars": [
+        "¹"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "DropRope"
+          }
+        ],
+        "source": "begin col(7,7);write(DropRope)end;"
+      }
+    },
+    {
+      "id": 77,
+      "name": "DropRope",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "º"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "DropRope"
+          }
+        ],
+        "source": "begin col(7,7);write(DropRope)end;"
+      }
+    },
+    {
+      "id": 78,
+      "name": "DropRope",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "»"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "DropRope"
+          }
+        ],
+        "source": "begin col(7,7);write(DropRope)end;"
+      }
+    },
+    {
+      "id": 79,
+      "name": "DropRope",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "¼"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "DropRope"
+          }
+        ],
+        "source": "begin col(7,7);write(DropRope)end;"
+      }
+    },
+    {
+      "id": 80,
+      "name": "DropRope",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "½"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "DropRope"
+          }
+        ],
+        "source": "begin col(7,7);write(DropRope)end;"
+      }
+    },
+    {
+      "id": 81,
+      "name": "Amulet",
+      "cp437": 12,
+      "visible": true,
+      "mapChars": [
+        ""
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              31,
+              31
+            ],
+            "bak": null,
+            "write": "Amulet"
+          }
+        ],
+        "source": "begin col(31,31);write(Amulet)end;"
+      }
+    },
+    {
+      "id": 82,
+      "name": "ShootRight",
+      "cp437": 26,
+      "visible": true,
+      "mapChars": [
+        "¯"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "ShootRight"
+          }
+        ],
+        "source": "begin col(7,7);write(ShootRight)end;"
+      }
+    },
+    {
+      "id": 83,
+      "name": "ShootLeft",
+      "cp437": 27,
+      "visible": true,
+      "mapChars": [
+        "®"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              7,
+              7
+            ],
+            "bak": null,
+            "write": "ShootLeft"
+          }
+        ],
+        "source": "begin col(7,7);write(ShootLeft)end;"
+      }
+    },
+    {
+      "id": 180,
+      "name": "Unnamed180",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "´"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              0
+            ],
+            "bak": [
+              6,
+              7
+            ],
+            "write": "."
+          }
+        ],
+        "source": "begin col(15,0);bak(6,7);write('.');bak(0,0)end;"
+      }
+    },
+    {
+      "id": 181,
+      "name": "Unnamed181",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "µ"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              0
+            ],
+            "bak": [
+              6,
+              7
+            ],
+            "write": "?"
+          }
+        ],
+        "source": "begin col(15,0);bak(6,7);write('?');bak(0,0)end;"
+      }
+    },
+    {
+      "id": 182,
+      "name": "Unnamed182",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "¶"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              0
+            ],
+            "bak": [
+              6,
+              7
+            ],
+            "write": "'"
+          }
+        ],
+        "source": "begin col(15,0);bak(6,7);write('''');bak(0,0)end;"
+      }
+    },
+    {
+      "id": 183,
+      "name": "Unnamed183",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "·"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              0
+            ],
+            "bak": [
+              6,
+              7
+            ],
+            "write": ","
+          }
+        ],
+        "source": "begin col(15,0);bak(6,7);write(',');bak(0,0)end;"
+      }
+    },
+    {
+      "id": 184,
+      "name": "Unnamed184",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [
+        "¸"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              0
+            ],
+            "bak": [
+              6,
+              7
+            ],
+            "write": ":"
+          }
+        ],
+        "source": "begin col(15,0);bak(6,7);write(':');bak(0,0)end;"
+      }
+    },
+    {
+      "id": 195,
+      "name": "Unnamed195",
+      "cp437": null,
+      "visible": true,
+      "mapChars": [],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              15,
+              0
+            ],
+            "bak": [
+              6,
+              7
+            ],
+            "write": "!"
+          }
+        ],
+        "source": "begin col(15,0);bak(6,7);write('!');bak(0,0)end"
+      }
+    },
+    {
+      "id": 224,
+      "name": "Trap6",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "à"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 225,
+      "name": "Trap7",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "á"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 226,
+      "name": "Trap8",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "â"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 227,
+      "name": "Trap9",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "ã"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 228,
+      "name": "Trap10",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "ä"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 229,
+      "name": "Trap11",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "å"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 230,
+      "name": "Trap12",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "æ"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 231,
+      "name": "Trap13",
+      "cp437": 0,
+      "visible": false,
+      "mapChars": [
+        "ç"
+      ],
+      "render": {
+        "variants": [],
+        "source": ";"
+      }
+    },
+    {
+      "id": 252,
+      "name": "Message",
+      "cp437": 5,
+      "visible": true,
+      "mapChars": [
+        "ü"
+      ],
+      "render": {
+        "variants": [
+          {
+            "col": [
+              6,
+              0
+            ],
+            "bak": [
+              2,
+              7
+            ],
+            "write": "Tree"
+          }
+        ],
+        "source": "begin col(6,0);bak(2,7);write(Tree);bak(0,0)end;"
+      }
+    }
+  ]
+}

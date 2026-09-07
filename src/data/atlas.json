@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "tileSize": 32,
+    "cols": 8,
+    "rows": 8,
+    "image": "atlas.png",
+    "credit": "Tiles by the Dungeon Crawl Stone Soup team and rltiles contributors, released under CC0."
+  },
+  "sources": [
+    "dc-dngn/floor/grey_dirt0.png",
+    "dc-mon/animals/rat.png",
+    "dc-mon/gnoll.png",
+    "dc-mon/undead/wraith.png",
+    "dc-dngn/wall/wall_yellow_rock0.png",
+    "item/weapon/bullwhip.png",
+    "dc-dngn/gateways/stone_stairs_down.png",
+    "UNUSED/other/chest2_closed.png",
+    "spells/enchantment/slow.png",
+    "local/gem-1.png",
+    "local/gem-2.png",
+    "local/gem-3.png",
+    "local/gem-4.png",
+    "local/gem-5.png",
+    "local/gem-6.png",
+    "local/gem-7.png",
+    "local/gem-9.png",
+    "local/gem-10.png",
+    "local/gem-11.png",
+    "local/gem-12.png",
+    "local/gem-13.png",
+    "local/gem-14.png",
+    "local/gem-15.png",
+    "spells/enchantment/invisibility.png",
+    "spells/translocation/teleport.png",
+    "UNUSED/other/key.png",
+    "dc-dngn/dngn_closed_door.png",
+    "dc-dngn/wall/brick_brown0.png",
+    "spells/enchantment/haste.png",
+    "dc-dngn/dngn_trap_dart.png",
+    "dc-dngn/water/dngn_shallow_water.png",
+    "item/potion/ruby.png",
+    "dc-dngn/wall/slime0.png",
+    "dc-dngn/wall/tree1_yellow.png",
+    "item/misc/misc_orb.png",
+    "dc-dngn/floor/lava0.png",
+    "dc-dngn/floor/lava1.png",
+    "dc-dngn/floor/lava2.png",
+    "dc-dngn/floor/lava3.png",
+    "dc-dngn/vaults/grate.png",
+    "item/book/book_of_the_dead.png",
+    "dc-dngn/floor/rect_gray0.png",
+    "spells/ice/freeze.png",
+    "item/misc/gold_pile.png",
+    "item/misc/misc_deck.png",
+    "spells/air/chain_lightning.png",
+    "UNUSED/other/demon_pentagram-large1.png",
+    "item/scroll/scroll.png",
+    "dc-dngn/dngn_granite_statue.png",
+    "dc-dngn/wall/stone_gray0.png",
+    "spells/translocation/blink.png",
+    "spells/translocation/portal.png",
+    "spells/translocation/phase_shift.png",
+    "dc-dngn/wall/stone2_gray0.png",
+    "UNUSED/other/boulder.png",
+    "dc-dngn/wall/volcanic_wall0.png",
+    "local/rope.png",
+    "local/dropchord.png",
+    "item/amulet/face1_gold.png",
+    "effect/arrow0.png",
+    "effect/arrow4.png",
+    "local/rail.png",
+    "dc-mon/unique/terence.png"
+  ],
+  "tiles": {
+    "0": {
+      "frames": [
+        0
+      ]
+    },
+    "1": {
+      "frames": [
+        1
+      ]
+    },
+    "2": {
+      "frames": [
+        2
+      ]
+    },
+    "3": {
+      "frames": [
+        3
+      ]
+    },
+    "4": {
+      "frames": [
+        4
+      ]
+    },
+    "5": {
+      "frames": [
+        5
+      ]
+    },
+    "6": {
+      "frames": [
+        6
+      ]
+    },
+    "7": {
+      "frames": [
+        7
+      ]
+    },
+    "8": {
+      "frames": [
+        8
+      ]
+    },
+    "9": {
+      "frames": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "pick": "level"
+    },
+    "10": {
+      "frames": [
+        23
+      ]
+    },
+    "11": {
+      "frames": [
+        24
+      ]
+    },
+    "12": {
+      "frames": [
+        25
+      ]
+    },
+    "13": {
+      "frames": [
+        26
+      ]
+    },
+    "14": {
+      "frames": [
+        27
+      ]
+    },
+    "15": {
+      "frames": [
+        28
+      ]
+    },
+    "16": {
+      "frames": [
+        29
+      ]
+    },
+    "17": {
+      "frames": [
+        30
+      ]
+    },
+    "18": {
+      "frames": [
+        31
+      ]
+    },
+    "19": {
+      "frames": [
+        32
+      ]
+    },
+    "20": {
+      "frames": [
+        33
+      ]
+    },
+    "21": {
+      "frames": [
+        34
+      ]
+    },
+    "22": {
+      "frames": [
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    "23": {
+      "frames": [
+        39
+      ]
+    },
+    "24": {
+      "frames": [
+        40
+      ]
+    },
+    "25": {
+      "frames": [
+        41
+      ]
+    },
+    "26": {
+      "frames": [
+        42
+      ]
+    },
+    "27": {
+      "frames": [
+        43
+      ]
+    },
+    "28": {
+      "frames": [
+        44
+      ]
+    },
+    "34": {
+      "frames": [
+        45
+      ]
+    },
+    "35": {
+      "frames": [
+        44
+      ]
+    },
+    "36": {
+      "frames": [
+        46
+      ]
+    },
+    "38": {
+      "frames": [
+        4
+      ]
+    },
+    "42": {
+      "frames": [
+        47
+      ]
+    },
+    "43": {
+      "frames": [
+        4
+      ]
+    },
+    "45": {
+      "frames": [
+        44
+      ]
+    },
+    "46": {
+      "frames": [
+        48
+      ]
+    },
+    "47": {
+      "frames": [
+        44
+      ]
+    },
+    "48": {
+      "text": "K"
+    },
+    "49": {
+      "text": "R"
+    },
+    "50": {
+      "text": "O"
+    },
+    "51": {
+      "text": "Z"
+    },
+    "52": {
+      "frames": [
+        27
+      ]
+    },
+    "53": {
+      "frames": [
+        27
+      ]
+    },
+    "54": {
+      "frames": [
+        49
+      ]
+    },
+    "58": {
+      "frames": [
+        50
+      ]
+    },
+    "59": {
+      "frames": [
+        51
+      ]
+    },
+    "60": {
+      "frames": [
+        52
+      ]
+    },
+    "64": {
+      "frames": [
+        53
+      ]
+    },
+    "65": {
+      "frames": [
+        54
+      ]
+    },
+    "66": {
+      "frames": [
+        55
+      ]
+    },
+    "75": {
+      "frames": [
+        56
+      ]
+    },
+    "76": {
+      "frames": [
+        57
+      ]
+    },
+    "77": {
+      "frames": [
+        57
+      ]
+    },
+    "78": {
+      "frames": [
+        57
+      ]
+    },
+    "79": {
+      "frames": [
+        57
+      ]
+    },
+    "80": {
+      "frames": [
+        57
+      ]
+    },
+    "81": {
+      "frames": [
+        58
+      ]
+    },
+    "82": {
+      "frames": [
+        59
+      ]
+    },
+    "83": {
+      "frames": [
+        60
+      ]
+    },
+    "180": {
+      "text": "."
+    },
+    "181": {
+      "text": "?"
+    },
+    "182": {
+      "text": "'"
+    },
+    "183": {
+      "text": ","
+    },
+    "184": {
+      "text": ":"
+    },
+    "195": {
+      "text": "!"
+    },
+    "196": {
+      "frames": [
+        61
+      ]
+    },
+    "252": {
+      "frames": [
+        33
+      ]
+    }
+  },
+  "player": {
+    "frames": [
+      62
+    ]
+  }
+}

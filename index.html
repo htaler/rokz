@@ -1,0 +1,127 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>Rokz — a port of Kroz</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; padding: 16px; background: #141416; color: #d8d4cc;
+    font: 13px/1.5 ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  header { display: flex; gap: 12px; align-items: center; margin-bottom: 10px; }
+  select { background: #232327; color: inherit; border: 1px solid #3a3a40; padding: 4px 6px; font: inherit; }
+  label { color: #8f8a80; user-select: none; }
+  #hud { color: #cfc8ba; margin-bottom: 4px; }
+  #log { color: #9a8f6f; margin-bottom: 10px; min-height: 1.5em; }
+  #banner { padding: 8px 12px; margin-bottom: 8px; font-weight: bold; letter-spacing: 1px; }
+  #banner.dead { background: #5c1a16; color: #ffd9d2; }
+  /* Panels are drawn in the game's own palette: the CGA colours it writes in,
+     one monospaced grid, and a double rule that reads as the box-drawing frame
+     a DOS screen would have used. */
+  /* An id selector outranks the browser's own [hidden] rule, so `display:flex`
+     would keep the panel on screen after hiding it. This puts it back. */
+  #overlay[hidden] { display: none; }
+  #overlay {
+    position: fixed; inset: 0; z-index: 10;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(6, 6, 8, .93); padding: 24px;
+  }
+  #overlayPanel {
+    border: 4px double #aa5500;
+    background: #0a0a0c;
+    padding: 28px 34px 22px;
+    max-width: 660px; width: 100%;
+    max-height: 100%; overflow: auto;
+  }
+  #overlayBody .title {
+    color: #ffff55; margin: 0 0 10px; line-height: 1.05;
+    font-size: 15px; letter-spacing: 2px; white-space: pre;
+  }
+  #overlayBody .kicker {
+    color: #aa5500; letter-spacing: 3px; text-transform: uppercase;
+    font-size: 11px; margin-bottom: 18px;
+  }
+  #overlayBody p { color: #9a958c; margin: 0 0 8px; max-width: 56ch; }
+  #overlayBody .menu { margin: 22px 0 18px; }
+  #overlayBody .row {
+    display: flex; gap: 10px; width: 100%; text-align: left;
+    background: none; border: 0; padding: 3px 0; cursor: pointer;
+    font: inherit; color: #d8d4cc;
+  }
+  #overlayBody .row .mark { color: #55ffff; width: 1ch; }
+  #overlayBody .row .detail { color: #55555f; margin-left: auto; }
+  #overlayBody .row.on .label { color: #ffff55; }
+  #overlayBody .row.on .mark { animation: blink 1s steps(1) infinite; }
+  #overlayBody .row:focus-visible { outline: 1px solid #55ffff; outline-offset: 2px; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { #overlayBody .row.on .mark { animation: none; } }
+  #overlayBody .grid { display: grid; grid-template-columns: 13ch 1fr; gap: 2px 14px; margin: 14px 0 4px; }
+  #overlayBody .grid dt { color: #55ffff; }
+  #overlayBody .grid dd { color: #9a958c; margin: 0; }
+  #overlayBody .cheatrow { display: flex; gap: 12px; align-items: center; margin: 18px 0 4px; }
+  #overlayBody .cheatrow label { color: #9a958c; }
+  #overlayBody .cheatrow input {
+    width: 7ch; background: #14140f; color: #ffff55; font: inherit;
+    border: 1px solid #aa5500; padding: 4px 6px;
+  }
+  #overlayBody .cheatrow input:focus-visible { outline: 1px solid #55ffff; outline-offset: 1px; }
+  #overlayBody .go {
+    font: inherit; color: #0a0a0c; background: #aa5500;
+    border: 0; padding: 5px 14px; cursor: pointer;
+  }
+  #overlayBody .go:hover { background: #ffff55; }
+  #overlayBody .hint { color: #55555f; margin-top: 20px; font-size: 12px; }
+  #overlayBody .ach { color: #5f5b54; }
+  #overlayBody .ach.got { color: #ffd76a; }
+  #overlayBody h4 {
+    grid-column: 1 / -1; margin: 14px 0 4px; color: #aa5500;
+    font-weight: normal; text-transform: uppercase; letter-spacing: 2px; font-size: 11px;
+  }
+  #hint { color: #55555f; margin-left: auto; }
+  #trophy {
+    position: fixed; left: 50%; top: 22%; transform: translateX(-50%);
+    z-index: 9; padding: 14px 26px; border: 3px double #ffd76a;
+    background: #14100a; color: #ffd76a; text-align: center;
+    box-shadow: 0 0 40px rgba(255, 215, 106, .25);
+    animation: trophyIn 2.8s ease-out forwards;
+  }
+  #trophy[hidden] { display: none; }
+  #trophy .what { color: #8f8a80; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; }
+  #trophy .name { font-size: 16px; font-weight: bold; margin-top: 4px; letter-spacing: 1px; }
+  @keyframes trophyIn {
+    0% { opacity: 0; transform: translateX(-50%) translateY(-8px); }
+    12% { opacity: 1; transform: translateX(-50%) translateY(0); }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) { #trophy { animation: none; } }
+  #banner.paused { background: #2a2a30; color: #d8d4cc; }
+  #banner.won { background: #1d4a2b; color: #d8f5e0; }
+  #kroz { margin-bottom: 8px; letter-spacing: 3px; font-weight: bold; font-size: 15px; }
+  #kroz span { margin-right: 6px; }
+  #kroz .got  { color: #ffd76a; text-shadow: 0 0 6px rgba(255,215,106,.6); }
+  #kroz .out  { color: #4d4a44; }
+  #kroz .lost { color: #7a3b34; text-decoration: line-through; }
+  #stage { display: block; width: 100%; height: auto; image-rendering: pixelated; border: 1px solid #2a2a2e; }
+  #achievements { margin-top: 12px; color: #8f8a80; }
+  #achievements summary { cursor: pointer; color: #cfc8ba; }
+  #achList { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2px 18px; margin-top: 8px; }
+  #achList h4 { grid-column: 1 / -1; margin: 10px 0 2px; color: #6f6a62; font-weight: normal; text-transform: uppercase; letter-spacing: 1px; font-size: 11px; }
+  .ach { color: #5f5b54; }
+  .ach.got { color: #ffd76a; }
+  footer { margin-top: 10px; color: #6a665e; }
+</style>
+<header>
+  <strong>Rokz</strong>
+  <span>a port of Kroz</span>
+  <label><input type="checkbox" id="mute" /> mute</label>
+  <span id="hint">? for menu</span>
+</header>
+<div id="hud"></div>
+<div id="log"></div>
+<div id="overlay" hidden><div id="overlayPanel"><div id="overlayBody"></div></div></div>
+<div id="kroz" hidden></div>
+<div id="banner" hidden></div>
+<div id="trophy" hidden></div>
+<canvas id="stage"></canvas>
+<footer>Tiles: Dungeon Crawl Stone Soup (CC0) · chains by MidnitePixel · level data extracted from the 1990 Turbo Pascal source.</footer>
+<script type="module" src="/src/main.ts"></script>

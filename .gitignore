@@ -1,0 +1,7 @@
+node_modules/
+dist/
+
+# Reference material that is not ours to redistribute, and the third-party
+# sources the tools read from. See README for how to obtain them.
+krozfaq.txt
+*.html.orig
