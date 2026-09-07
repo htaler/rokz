@@ -3,11 +3,9 @@
 A browser port of **The Lost Adventures of Kroz** (Scott Miller, Apogee Software, 1990),
 built directly from the original Turbo Pascal source.
 
-<img width="755" height="554" alt="image" src="https://github.com/user-attachments/assets/0322b213-b539-4c7c-9a4e-cd1cb5a5f0cb" />
+![The Rokz start menu: a block-letter title over the dimmed playfield, with Continue, New game, Difficulty, Speed, How to play, Trophies, Cheats and About.](docs/start-menu.png)
 
-<img width="1431" height="620" alt="image" src="https://github.com/user-attachments/assets/4c0c329a-4261-4754-a6b5-339bf16afadb" />
-
-
+![Level 1 in play: the hut at the upper left with a key and gems, whips in the storage room below, a river to the right, and the game's title spelled out in the treeline.](docs/level-01.png)
 
 All 75 levels, the monsters, the spells, the traps and the sounds are read out of the
 1990 code rather than recreated by hand. The 943 hand-drawn layout rows in this repo
