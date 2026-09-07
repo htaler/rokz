@@ -577,6 +577,9 @@ const DIRECTIONS: Record<string, [number, number]> = {
   Numpad7: [-1, -1], Numpad9: [1, -1], Numpad1: [-1, 1], Numpad3: [1, 1],
   // Diagonals sit around WASD, so they work with either hand position.
   KeyQ: [-1, -1], KeyE: [1, -1], KeyZ: [-1, 1], KeyC: [1, 1],
+  // The original read raw scan codes 71/73/79/81 for its diagonals, which is
+  // what the keypad corners send with NumLock off: Home, PgUp, End, PgDn.
+  Home: [-1, -1], PageUp: [1, -1], End: [-1, 1], PageDown: [1, 1],
 };
 
 addEventListener('keydown', (event) => {
